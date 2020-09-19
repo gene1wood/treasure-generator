@@ -1,0 +1,4819 @@
+{
+    "treasure types": {
+        "test":{
+            "art objects":{
+                "range":[2, 1000]
+            }
+        },
+        "everything":{
+            "copper":{
+                "range":[2, 10]
+            },
+            "silver":{
+                "range":[2, 10]
+            },
+            "gold":{
+                "range":[2, 10]
+            },
+            "platinum or electrum":{
+                "range":[2, 10]
+            },
+            "gems":{
+                "range":[2, 10]
+            },
+            "art objects":{
+                "range":[2, 10]
+            },
+            "magical items":{
+                "likelihood":1,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["armor","weapon"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["potion"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["scroll"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["ring"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["rod"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["staff"],
+                        "range":1
+
+                    },
+                    {
+                        "types":["wand"],
+                        "range":1
+
+                    }
+                ]
+            }
+        },
+        "a":{
+            "copper":{
+                "likelihood":0.25,
+                "range":[1000, 3000]
+
+            },
+            "silver":{
+                "likelihood":0.3,
+                "range":[200, 2000]
+
+            },
+            "gold":{
+                "likelihood":0.4,
+                "range":[1000, 6000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.35,
+                "range":[300, 1800]
+
+            },
+            "gems":{
+                "likelihood":0.6,
+                "range":[10, 40]
+
+            },
+            "art objects":{
+                "likelihood":0.5,
+                "range":[2, 12]
+
+            },
+            "magical items":{
+                "likelihood":0.3,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":3
+
+                    }
+                ]
+            }
+        },
+        "b":{
+            "copper":{
+                "likelihood":0.5,
+                "range":[1000, 6000]
+
+            },
+            "silver":{
+                "likelihood":0.25,
+                "range":[1000, 3000]
+
+            },
+            "gold":{
+                "likelihood":0.25,
+                "range":[200, 2000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.25,
+                "range":[100, 1000]
+
+            },
+            "gems":{
+                "likelihood":0.3,
+                "range":[1, 8]
+
+            },
+            "art objects":{
+                "likelihood":0.2,
+                "range":[1, 4]
+
+            },
+            "magical items":{
+                "likelihood":0.1,
+                "collections":[
+                    {
+                        "types":["armor","weapon"],
+                        "range":1
+
+                    }
+                ]
+            }
+        },
+        "c":{
+            "copper":{
+                "likelihood":0.2,
+                "range":[1000, 10000]
+
+            },
+            "silver":{
+                "likelihood":0.3,
+                "range":[1000, 6000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.1,
+                "range":[100, 600]
+
+            },
+            "gems":{
+                "likelihood":0.25,
+                "range":[1, 6]
+
+            },
+            "art objects":{
+                "likelihood":0.2,
+                "range":[1, 3]
+
+            },
+            "magical items":{
+                "likelihood":0.1,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":2
+
+                    }
+                ]
+            }
+        },
+        "d":{
+            "copper":{
+                "likelihood":0.1,
+                "range":[1000, 6000]
+
+            },
+            "silver":{
+                "likelihood":0.15,
+                "range":[1000, 10000]
+
+            },
+            "gold":{
+                "likelihood":0.5,
+                "range":[1000, 3000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.15,
+                "range":[100, 600]
+
+            },
+            "gems":{
+                "likelihood":0.3,
+                "range":[1, 10]
+
+            },
+            "art objects":{
+                "likelihood":0.25,
+                "range":[1, 6]
+
+            },
+            "magical items":{
+                "likelihood":0.15,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":2
+                    },
+                    {
+                        "types":["potion"],
+                        "range":1
+                    }
+                ]
+            }
+        },
+        "e":{
+            "copper":{
+                "likelihood":0.05,
+                "range":[1000, 6000]
+
+            },
+            "silver":{
+                "likelihood":0.25,
+                "range":[1000, 10000]
+
+            },
+            "gold":{
+                "likelihood":0.25,
+                "range":[1000, 4000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.25,
+                "range":[300, 1800]
+
+            },
+            "gems":{
+                "likelihood":0.15,
+                "range":[1, 12]
+
+            },
+            "art objects":{
+                "likelihood":0.1,
+                "range":[1, 6]
+
+            },
+            "magical items":{
+                "likelihood":0.25,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":3
+
+                    },
+                    {
+                        "types":["scroll"],
+                        "range":1
+
+                    }
+                ]
+            }
+        },
+        "f":{
+            "silver":{
+                "likelihood":0.1,
+                "range":[3000, 18000]
+
+            },
+            "gold":{
+                "likelihood":0.4,
+                "range":[1000, 6000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.15,
+                "range":[1000, 4000]
+
+            },
+            "gems":{
+                "likelihood":0.2,
+                "range":[2, 20]
+
+            },
+            "art objects":{
+                "likelihood":0.1,
+                "range":[1, 8]
+
+            },
+            "magical items":{
+                "likelihood":0.3,
+                "collections":[
+                    {
+                        "types":[
+                            "scroll",
+                            "potion",
+                            "armor",
+                            "misc"],
+                        "range":5
+                    }
+                ]
+            }
+        },
+        "g":{
+            "gold":{
+                "likelihood":0.5,
+                "range":[2000, 20000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.5,
+                "range":[1000, 10000]
+
+            },
+            "gems":{
+                "likelihood":0.3,
+                "range":[3, 18]
+
+            },
+            "art objects":{
+                "likelihood":0.25,
+                "range":[1, 6]
+
+            },
+            "magical items":{
+                "likelihood":0.35,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":5
+                    }
+                ]
+            }
+        },
+        "h":{
+            "copper":{
+                "likelihood":0.25,
+                "range":[3000, 18000]
+
+            },
+            "silver":{
+                "likelihood":0.4,
+                "range":[2000, 20000]
+
+            },
+            "gold":{
+                "likelihood":0.55,
+                "range":[2000, 20000]
+
+            },
+            "platinum or electrum":{
+                "likelihood":0.4,
+                "range":[1000, 8000]
+
+            },
+            "gems":{
+                "likelihood":0.5,
+                "range":[3, 30]
+
+            },
+            "art objects":{
+                "likelihood":0.5,
+                "range":[2, 20]
+
+            },
+            "magical items":{
+                "likelihood":0.15,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":6
+                    }
+                ]
+            }
+        },
+        "i":{
+            "platinum or electrum":{
+                "likelihood":0.3,
+                "range":[100, 600]
+
+            },
+            "gems":{
+                "likelihood":0.55,
+                "range":[2, 12]
+
+            },
+            "art objects":{
+                "likelihood":0.5,
+                "range":[2, 8]
+
+            },
+            "magical items":{
+                "likelihood":0.15,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":1
+                    }
+                ]
+            }
+        },
+        "j":{
+            "copper":{
+                "range":[3, 24]
+            }
+        },
+        "k":{
+            "silver":{
+                "range":[3, 18]
+            }
+        },
+        "l":{
+            "platinum or electrum":{
+                "range":[2, 12]
+            }
+        },
+        "m":{
+            "gold":{
+                "range":[2, 8]
+            }
+        },
+        "n":{
+            "platinum or electrum":{
+                "range":[1, 6]
+            }
+        },
+        "o":{
+            "copper":{
+                "range":[10, 40]
+            },
+            "silver":{
+                "range":[10, 30]
+            }
+        },
+        "p":{
+            "silver":{
+                "range":[10, 60]
+            },
+            "platinum or electrum":{
+                "range":[1, 20]
+            }
+        },
+        "q":{
+            "gems":{
+                "range":[1, 4]
+            }
+        },
+        "r":{
+            "gold":{
+                "range":[2, 20]
+            },
+            "platinum or electrum":{
+                "range":[10, 60]
+            },
+            "gems":{
+                "range":[2, 8]
+            },
+            "art objects":{
+                "range":[1, 3]
+            }
+        },
+        "s":{
+            "magical items":{
+                "collections":[
+                    {
+                        "types":["potion"],
+                        "range":[1, 8]
+                    }
+                ]
+            }
+        },
+        "t":{
+            "magical items":{
+                "collections":[
+                    {
+                        "types":["scroll"],
+                        "range":[1, 4]
+                    }
+                ]
+            }
+        },
+        "u":{
+            "gems":{
+                "likelihood":0.9,
+                "range":[2, 16]
+            },
+            "art objects":{
+                "likelihood":0.8,
+                "range":[1, 6]
+            },
+            "magical items":{
+                "likelihood":0.7,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":1
+                    }
+                ]
+            }
+        },
+        "v":{
+            "magical items":{
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":2
+                    }
+                ]
+            }
+        },
+        "w":{
+            "gold":{
+                "range":[5, 30]
+            },
+            "platinum or electrum":{
+                "range":[1, 8]
+            },
+            "gems":{
+                "likelihood":0.6,
+                "range":[2, 16]
+            },
+            "art objects":{
+                "likelihood":0.5,
+                "range":[1, 8]
+            },
+            "magical items":{
+                "likelihood":0.6,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":2
+                    }
+                ]
+            }
+        },
+        "x":{
+            "magical items":{
+                "collections":[
+                    {
+                        "types":["potion"],
+                        "range":2
+                    }
+                ]
+            }
+        },
+        "y":{
+            "gold":{
+                "range":[200, 1200]
+            }
+        },
+        "z":{
+            "copper":{
+                "range":[100, 300]
+
+            },
+            "silver":{
+                "range":[100, 400]
+
+            },
+            "gold":{
+                "range":[100, 600]
+
+            },
+            "platinum or electrum":{
+                "range":[100, 400]
+
+            },
+            "gems":{
+                "likelihood":0.55,
+                "range":[1, 6]
+
+            },
+            "art objects":{
+                "likelihood":0.5,
+                "range":[2, 12]
+
+            },
+            "magical items":{
+                "likelihood":0.5,
+                "collections":[
+                    {
+                        "types":["any"],
+                        "range":[3, 30]
+
+                    }
+                ]
+            }
+        }
+    },
+    "gems": {
+        "gems": {
+            "die": 100,
+            "options": [
+                {
+                    "range":[1,25],
+                    "value":10,
+                    "class":"ornamental"
+                },
+                {
+                    "range":[26,50],
+                    "value":50,
+                    "class":"semi-precious"
+                },
+                {
+                    "range":[51,70],
+                    "value":100,
+                    "class":"fancy"
+                },
+                {
+                    "range":[71,90],
+                    "value":500,
+                    "class":"precious"
+                },
+                {
+                    "range":[91,99],
+                    "value":1000,
+                    "class":"gems"
+                },
+                {
+                    "range":100,
+                    "value":5000,
+                    "class":"jewels"
+                }
+            ]
+        },
+        "variations": {
+            "die": 6,
+            "options": [
+                {
+                    "range":1,
+                    "result":"next base higher"
+                },
+                {
+                    "range":2,
+                    "result":2
+                },
+                {
+                    "range":3,
+                    "result":[1.1, 1.6]
+                },
+                {
+                    "range":4,
+                    "result":[0.9, 0.6]
+                },
+                {
+                    "range":5,
+                    "result":0.5
+                },
+                {
+                    "range":6,
+                    "result":"next base lower"
+                }
+            ]
+        },
+        "descriptions": {
+            "ornamental": [
+                "Azurite: Opaque, mottled deep blue",
+                "Banded Agate: Brown, blue, red, and white stripes",
+                "Blue Quartz: Transparent pale blue",
+                "Eye Agate: Gray, white, brown, blue, and green circles",
+                "Hematite: Gray-black",
+                "Lapis Lazuli: Light or dark blue with yellow flecks",
+                "Malachite: Striated light and dark green",
+                "Moss Agate: Pink, yellow-white with gray-green moss-like markings",
+                "Obsidian: Jet black",
+                "Rhodochrosite: Light pink",
+                "Tiger Eye Agate: Rich golden brown with dark striping",
+                "Turquoise: Aqua with darker mottling"
+            ],
+            "semi-precious": [
+                "Bloodstone: Dark gray with red flecks",
+                "Carnelian: Orange to red-brown",
+                "Chalcedony: White",
+                "Chrysoprase: Translucent apple to emerald green",
+                "Citrine: Pale yellow brown",
+                "Jasper: Blue, black to brown",
+                "Moonstone: White with pale blue hue",
+                "Onyx: Black, white, or bands of both",
+                "Rock Crystal: Clear, transparent",
+                "Sardonyx: Bands of red and white",
+                "Smoky Quartz: light gray, yellow, brown or blue",
+                "Star Rose Quartz: Smoky rose with white star center",
+                "Zircon: Clear pale aqua"
+            ],
+            "fancy": [
+                "Amber: Transparent golden",
+                "Alexandrite: Dark green",
+                "Amethyst: Purple crystal",
+                "Chrysoberyl: green or yellow green",
+                "Coral: Pink to crimson",
+                "Garnet: Deep red to violet crystal",
+                "Jade: Light to dark green or white",
+                "Jet: Deep black",
+                "Pearl: Pure white, rose, to black",
+                "Spinel: Red, red-brown, green, or deep blue",
+                "Tourmaline: Pale green, blue, brown, or red"
+            ],
+            "precious": [
+                "Aquamarine: pale blue green",
+                "Garnet: Deep red to violet crystal",
+                "Pearl: Pure white, rose, to black",
+                "Peridot: Olive green",
+                "Spinel: Red, red-brown, green, or deep blue",
+                "Topaz: Golden yellow"
+            ],
+            "gems": [
+                "Black Opal: Dark green with black mottling and golden flecks",
+                "Fire Opal: Fiery red",
+                "Opal: Pale blue with green and gold mottling",
+                "Oriental Amethyst: Deep purple",
+                "Oriental Topaz: Fiery yellow",
+                "Sapphire: Clear to medium blue"
+            ],
+            "jewels": [
+                "Black Sapphire: Rich black with highlights",
+                "Diamond: Clear blue-white, rich blue, yellow, or pink",
+                "Emerald: Brilliant green",
+                "Jacinth: Fiery orange",
+                "Oriental Emerald: Bright green",
+                "Ruby: Clear to deep crimson red",
+                "Star Ruby: Translucent ruby with white star highlights",
+                "Star Sapphire: Translucent blue with white star highlights"
+            ]
+        },
+        "baseValues": [
+            0.1,
+            0.5,
+            1,
+            5,
+            10,
+            50,
+            100,
+            500,
+            1000,
+            5000,
+            10000,
+            20000,
+            40000,
+            80000
+        ]
+    },
+    "art objects": {
+        "die":100,
+        "options": [
+            {
+                "range":[1,10],
+                "value":[10,100]
+            },
+            {
+                "range":[11,25],
+                "value":[30,180]
+            },
+            {
+                "range":[26,40],
+                "value":[100,600]
+            },
+            {
+                "range":[41,50],
+                "value":[100,1000]
+            },
+            {
+                "range":[51,60],
+                "value":[200,1200]
+            },
+            {
+                "range":[61,70],
+                "value":[300,1800]
+            },
+            {
+                "range":[71,80],
+                "value":[400,2400]
+            },
+            {
+                "range":[81,85],
+                "value":[500,3000]
+            },
+            {
+                "range":[86,90],
+                "value":[1000,4000]
+            },
+            {
+                "range":[91,95],
+                "value":[1000,6000]
+            },
+            {
+                "range":[96,99],
+                "value":[2000,8000]
+            },
+            {
+                "range":100,
+                "value":[2000,12000]
+            }
+        ]
+    },
+    "magical items": {
+        "magical items": {
+            "die":100,
+            "options": [
+                {
+                    "range":[1,20],
+                    "category":"potion"
+                },
+                {
+                    "range":[21,35],
+                    "category":"scroll"
+                },
+                {
+                    "range":[36,40],
+                    "category":"ring"
+                },
+                {
+                    "range":41,
+                    "category":"rod"
+                },
+                {
+                    "range":42,
+                    "category":"staff"
+                },
+                {
+                    "range":[43,45],
+                    "category":"wand"
+                },
+                {
+                    "range":46,
+                    "category":"misc",
+                    "subcategory": "book"
+                },
+                {
+                    "range":[47,48],
+                    "category":"misc",
+                    "subcategory":"jewel"
+                },
+                {
+                    "range":[49,50],
+                    "category":"misc",
+                    "subcategory":"cloak"
+                },
+                {
+                    "range":[51,52],
+                    "category":"misc",
+                    "subcategory":"boot"
+                },
+                {
+                    "range":53,
+                    "category":"misc",
+                    "subcategory":"girdle"
+                },
+                {
+                    "range":[54,55],
+                    "category":"misc",
+                    "subcategory":"bag"
+                },
+                {
+                    "range":56,
+                    "category":"misc",
+                    "subcategory":"dust"
+                },
+                {
+                    "range":57,
+                    "category":"misc",
+                    "subcategory":"tool"
+                },
+                {
+                    "range":58,
+                    "category":"misc",
+                    "subcategory":"instrument"
+                },
+                {
+                    "range":[59,60],
+                    "category":"misc",
+                    "subcategory":"weird"
+                },
+                {
+                    "range":[61,75],
+                    "category":"armor"
+                },
+                {
+                    "range":[76,100],
+                    "category":"weapon"
+                }
+            ]
+        },
+        "potion": {
+            "die":60,
+            "options": [
+                {
+                    "range":1,
+                    "item":"Animal control"
+                },
+                {
+                    "range":2,
+                    "item":"Clairaudience"
+                },
+                {
+                    "range":3,
+                    "item":"Clairvoyance"
+                },
+                {
+                    "range":4,
+                    "item":"Climbing"
+                },
+                {
+                    "range":[5,6],
+                    "item":"Delusion"
+                },
+                {
+                    "range":7,
+                    "item":"Diminution"
+                },
+                {
+                    "range":8,
+                    "item":"Dragon Control"
+                },
+                {
+                    "range":9,
+                    "item":"Elixer of Health"
+                },
+                {
+                    "range":[10,11],
+                    "item":"Elixir of Madness"
+                },
+                {
+                    "range":12,
+                    "item":"Elixir of Youth"
+                },
+                {
+                    "range":13,
+                    "item":"ESP"
+                },
+                {
+                    "range":[14,15],
+                    "item":"Extra-healing"
+                },
+                {
+                    "range":16,
+                    "item":"Fire Breath"
+                },
+                {
+                    "range":17,
+                    "item":"Fire Resistance"
+                },
+                {
+                    "range":18,
+                    "item":"Flying"
+                },
+                {
+                    "range":19,
+                    "item":"Gaseous Form"
+                },
+                {
+                    "range":20,
+                    "item":"DM's Choice"
+                },
+                {
+                    "range":21,
+                    "item":"Giant Control"
+                },
+                {
+                    "range":22,
+                    "item":"Giant Strength (Warrior)"
+                },
+                {
+                    "range":23,
+                    "item":"Growth"
+                },
+                {
+                    "range":[24,25],
+                    "item":"Healing"
+                },
+                {
+                    "range":26,
+                    "item":"Heroism (Warrior)"
+                },
+                {
+                    "range":27,
+                    "item":"Human Control"
+                },
+                {
+                    "range":28,
+                    "item":"Invisibility"
+                },
+                {
+                    "range":29,
+                    "item":"Invunerability (Warrior)"
+                },
+                {
+                    "range":30,
+                    "item":"Levitation"
+                },
+                {
+                    "range":31,
+                    "item":"Longevity"
+                },
+                {
+                    "range":32,
+                    "item":"Oil of Acid Resistance"
+                },
+                {
+                    "range":33,
+                    "item":"Oil of Disenchantment"
+                },
+                {
+                    "range":34,
+                    "item":"Oil of Elemental Invulnerability"
+                },
+                {
+                    "range":35,
+                    "item":"Oil of Etherealness"
+                },
+                {
+                    "range":36,
+                    "item":"Oil of Firery Burning"
+                },
+                {
+                    "range":37,
+                    "item":"Oil of Fumbling"
+                },
+                {
+                    "range":38,
+                    "item":"Oil of Impact"
+                },
+                {
+                    "range":39,
+                    "item":"Oil of Slipperiness"
+                },
+                {
+                    "range":40,
+                    "item":"DM's Choice"
+                },
+                {
+                    "range":41,
+                    "item":"Oil of Timelessness"
+                },
+                {
+                    "range":42,
+                    "item":"Philter of Glibness"
+                },
+                {
+                    "range":43,
+                    "item":"Philter of Love"
+                },
+                {
+                    "range":44,
+                    "item":"Philter of Persuasiveness"
+                },
+                {
+                    "range":45,
+                    "item":"Philter of Stammering and Stuttering"
+                },
+                {
+                    "range":46,
+                    "item":"Plant Control"
+                },
+                {
+                    "range":[47,48],
+                    "item":"Poison"
+                },
+                {
+                    "range":49,
+                    "item":"Polymorph Self"
+                },
+                {
+                    "range":50,
+                    "item":"Rainbow Hues"
+                },
+                {
+                    "range":51,
+                    "item":"Speed"
+                },
+                {
+                    "range":[52,53],
+                    "item":"Super-heroism (Warrior)"
+                },
+                {
+                    "range":54,
+                    "item":"Sweet Water"
+                },
+                {
+                    "range":55,
+                    "item":"Treasure Finding"
+                },
+                {
+                    "range":56,
+                    "item":"Undead Control"
+                },
+                {
+                    "range":57,
+                    "item":"Ventriloquism"
+                },
+                {
+                    "range":58,
+                    "item":"Vitality"
+                },
+                {
+                    "range":59,
+                    "item":"Water Breathing"
+                },
+                {
+                    "range":60,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "scroll": {
+            "die":60,
+            "note":"If priest scroll and level[1] > 7 then level[1] = level[1] - 2",
+            "options": [
+                {
+                    "range":[1,6],
+                    "item":1,
+                    "level":[1,4]
+                },
+                {
+                    "range":[7,10],
+                    "item":1,
+                    "level":[1,6]
+                },
+                {
+                    "range":[11,12],
+                    "item":1,
+                    "level":[2,9]
+                },
+                {
+                    "range":[13,14],
+                    "item":2,
+                    "level":[1,4]
+                },
+                {
+                    "range":[15,16],
+                    "item":2,
+                    "level":[2,9]
+                },
+                {
+                    "range":[17,18],
+                    "item":3,
+                    "level":[1,4]
+                },
+                {
+                    "range":[19,20],
+                    "item":3,
+                    "level":[2,9]
+                },
+                {
+                    "range":[21,22],
+                    "item":4,
+                    "level":[1,6]
+                },
+                {
+                    "range":[23,24],
+                    "item":4,
+                    "level":[1,8]
+                },
+                {
+                    "range":[25,26],
+                    "item":5,
+                    "level":[1,6]
+                },
+                {
+                    "range":[27,28],
+                    "item":5,
+                    "level":[1,8]
+                },
+                {
+                    "range":[29,30],
+                    "item":6,
+                    "level":[1,6]
+                },
+                {
+                    "range":[31,32],
+                    "item":6,
+                    "level":[3,8]
+                },
+                {
+                    "range":[33,34],
+                    "item":7,
+                    "level":[1,8]
+                },
+                {
+                    "range":[35,36],
+                    "item":7,
+                    "level":[2,9]
+                },
+                {
+                    "range":[37,38],
+                    "item":7,
+                    "level":[4,9]
+                },
+                {
+                    "range":[39,40],
+                    "item":"DM's Choice"
+                },
+                {
+                    "range":41,
+                    "item":"Map"
+                },
+                {
+                    "range":42,
+                    "item":"Protection - Acid"
+                },
+                {
+                    "range":43,
+                    "item":"Protection - Cold"
+                },
+                {
+                    "range":44,
+                    "item":"Protection - Dragon Breath"
+                },
+                {
+                    "range":45,
+                    "item":"Protection - Electricity"
+                },
+                {
+                    "range":46,
+                    "item":"Protection - Elementals"
+                },
+                {
+                    "range":[47,48],
+                    "item":"Protection - Fire"
+                },
+                {
+                    "range":49,
+                    "item":"Protection - Gas"
+                },
+                {
+                    "range":50,
+                    "item":"Protection - Lycanthropes"
+                },
+                {
+                    "range":[51,52],
+                    "item":"Protection - Magic"
+                },
+                {
+                    "range":53,
+                    "item":"Protection - Petrification"
+                },
+                {
+                    "range":54,
+                    "item":"Protection - Plants"
+                },
+                {
+                    "range":55,
+                    "item":"Protection - Poison"
+                },
+                {
+                    "range":56,
+                    "item":"Protection - Possession"
+                },
+                {
+                    "range":57,
+                    "item":"Protection - Undead"
+                },
+                {
+                    "range":58,
+                    "item":"Protection - Water"
+                },
+                {
+                    "range":59,
+                    "item":"Cursed"
+                },
+                {
+                    "range":60,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "wizard or priest scroll": {
+            "die":100,
+            "options": [
+                {
+                    "range":[1,70],
+                    "type":"wizard"
+                },
+                {
+                    "range":[71,100],
+                    "type":"priest"
+                }
+            ]
+        },
+        "ring": {
+            "die":60,
+            "options": [
+                {
+                    "range":[1,2],
+                    "item":"Animal Friendship"
+                },
+                {
+                    "range":[3,4],
+                    "item":"Blinking"
+                },
+                {
+                    "range":[5,6],
+                    "item":"Chameleon Power"
+                },
+                {
+                    "range":[7,8],
+                    "item":"Clumsiness"
+                },
+                {
+                    "range":[9,10],
+                    "item":"Contrariness"
+                },
+                {
+                    "range":[11,14],
+                    "item":"Delusion"
+                },
+                {
+                    "range":[15,16],
+                    "item":"Djinni Summoning"
+                },
+                {
+                    "range":[17,18],
+                    "item":"Elemental Command"
+                },
+                {
+                    "range":[19,20],
+                    "item":"Feather Falling"
+                },
+                {
+                    "range":[21,22],
+                    "item":"Fire Resistance"
+                },
+                {
+                    "range":[23,24],
+                    "item":"Free Action"
+                },
+                {
+                    "range":[25,26],
+                    "item":"Human Influence"
+                },
+                {
+                    "range":[27,28],
+                    "item":"Invisibility"
+                },
+                {
+                    "range":[29,32],
+                    "item":"Jumping"
+                },
+                {
+                    "range":[33,34],
+                    "item":"Mammal Control"
+                },
+                {
+                    "range":[35,36],
+                    "item":"Mind Shielding"
+                },
+                {
+                    "range":[37,38],
+                    "item":"Protection"
+                },
+                {
+                    "range":[39,40],
+                    "item":"DM's Choice"
+                },
+                {
+                    "range":[41,42],
+                    "item":"Protection"
+                },
+                {
+                    "range":43,
+                    "item":"the Ram"
+                },
+                {
+                    "range":44,
+                    "item":"Regeneration"
+                },
+                {
+                    "range":45,
+                    "item":"Shocking Grasp"
+                },
+                {
+                    "range":46,
+                    "item":"Shooting Stars"
+                },
+                {
+                    "range":47,
+                    "item":"Spell Storing"
+                },
+                {
+                    "range":48,
+                    "item":"Spell Turning"
+                },
+                {
+                    "range":49,
+                    "item":"Sustenance"
+                },
+                {
+                    "range":50,
+                    "item":"Swimming"
+                },
+                {
+                    "range":51,
+                    "item":"Telekinesis"
+                },
+                {
+                    "range":52,
+                    "item":"Truth"
+                },
+                {
+                    "range":53,
+                    "item":"Warmth"
+                },
+                {
+                    "range":54,
+                    "item":"Water Walking"
+                },
+                {
+                    "range":55,
+                    "item":"Weakness"
+                },
+                {
+                    "range":56,
+                    "item":"Multiple Wishes"
+                },
+                {
+                    "range":57,
+                    "item":"Three Wishes"
+                },
+                {
+                    "range":58,
+                    "item":"Wizardry (Wizard)"
+                },
+                {
+                    "range":59,
+                    "item":"X-Ray Vision"
+                },
+                {
+                    "range":60,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "rod": {
+            "die":20,
+            "options":[
+                {
+                    "range":[1,2],
+                    "item":"Absorption (Priest, Wizard)"
+                },
+                {
+                    "range":[3,4],
+                    "item":"Alertness"
+                },
+                {
+                    "range":5,
+                    "item":"Beguiling (Priest, Wizard, Rogue)"
+                },
+                {
+                    "range":[6,7],
+                    "item":"Cancellation"
+                },
+                {
+                    "range":8,
+                    "item":"Flailing"
+                },
+                {
+                    "range":9,
+                    "item":"Lordly Might (Warrior)"
+                },
+                {
+                    "range":10,
+                    "item":"Passage"
+                },
+                {
+                    "range":11,
+                    "item":"Resurrection (Priest)"
+                },
+                {
+                    "range":12,
+                    "item":"Rulership"
+                },
+                {
+                    "range":[13,14],
+                    "item":"Security"
+                },
+                {
+                    "range":[15,16],
+                    "item":"Smiting (Priest, Wizard)"
+                },
+                {
+                    "range":17,
+                    "item":"Splendor"
+                },
+                {
+                    "range":[18,19],
+                    "item":"Terror"
+                },
+                {
+                    "range":20,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "staff":{
+            "die":20,
+            "options":[
+                {
+                    "range":[1,2],
+                    "item":"Mace"
+                },
+                {
+                    "range":3,
+                    "item":"Command (Priest, Wizard)"
+                },
+                {
+                    "range":[4,5],
+                    "item":"Curing (Priest)"
+                },
+                {
+                    "range":6,
+                    "item":"Magi (Wizard)"
+                },
+                {
+                    "range":7,
+                    "item":"Power (Wizard)"
+                },
+                {
+                    "range":8,
+                    "item":"Serpent (Priest)"
+                },
+                {
+                    "range":[9,10],
+                    "item":"Slinging (Priest)"
+                },
+                {
+                    "range":[11,12],
+                    "item":"Spear"
+                },
+                {
+                    "range":[13,14],
+                    "item":"Striking (Priest, Wizard)"
+                },
+                {
+                    "range":15,
+                    "item":"Swarming Insects (Prist, Wizard)"
+                },
+                {
+                    "range":16,
+                    "item":"Thunder & Lightning"
+                },
+                {
+                    "range":[17,18],
+                    "item":"Withering"
+                },
+                {
+                    "range":19,
+                    "item":"Woodlands (Druid)"
+                },
+                {
+                    "range":20,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "wand":{
+            "die":20,
+            "options":[
+                {
+                    "range":1,
+                    "item":"Conjuration (Wizard)"
+                },
+                {
+                    "range":2,
+                    "item":"Earth and Stone"
+                },
+                {
+                    "range":3,
+                    "item":"Enemy Detection"
+                },
+                {
+                    "range":4,
+                    "item":"Fear (Priest, Wizard)"
+                },
+                {
+                    "range":5,
+                    "item":"Fire (Wizard)"
+                },
+                {
+                    "range":6,
+                    "item":"Flame Extinguishing"
+                },
+                {
+                    "range":7,
+                    "item":"Frost (Wizard)"
+                },
+                {
+                    "range":8,
+                    "item":"Illumination"
+                },
+                {
+                    "range":9,
+                    "item":"Illusion (Wizard)"
+                },
+                {
+                    "range":10,
+                    "item":"Lightning (Wizard)"
+                },
+                {
+                    "range":11,
+                    "item":"Magic Detection"
+                },
+                {
+                    "range":12,
+                    "item":"Magic Missiles"
+                },
+                {
+                    "range":13,
+                    "item":"Metal and Mineral Detection"
+                },
+                {
+                    "range":14,
+                    "item":"Negation"
+                },
+                {
+                    "range":15,
+                    "item":"Paralyzation (Wizard)"
+                },
+                {
+                    "range":16,
+                    "item":"Polymorphing (Wizard)"
+                },
+                {
+                    "range":17,
+                    "item":"Secret Door and Trap Location"
+                },
+                {
+                    "range":18,
+                    "item":"Size Alteration"
+                },
+                {
+                    "range":19,
+                    "item":"Wonder"
+                },
+                {
+                    "range":20,
+                    "item":"DM's Choice"
+                }
+            ]
+        },
+        "misc":{
+            "book":{
+                "die":20,
+                "options":[
+                    {
+                        "range":[1,3],
+                        "item":"Boccob's Blessed Book (Wizard)"
+                    },
+                    {
+                        "range":4,
+                        "item":"Book of Exalted Deeds (Priest)"
+                    },
+                    {
+                        "range":5,
+                        "item":"Book of Infinite Spells"
+                    },
+                    {
+                        "range":6,
+                        "item":"Book of Vile Darkness (Priest)"
+                    },
+                    {
+                        "range":7,
+                        "item":"Libram of Gainful Conjuration (Wizard)"
+                    },
+                    {
+                        "range":8,
+                        "item":"Libram of Ineffable Damnation (Wizard)"
+                    },
+                    {
+                        "range":9,
+                        "item":"Libram of Silver Magic (Wizard)"
+                    },
+                    {
+                        "range":10,
+                        "item":"Manual of Bodily Health"
+                    },
+                    {
+                        "range":11,
+                        "item":"Manual of Gainful Exercise"
+                    },
+                    {
+                        "range":12,
+                        "item":"Manual of Golems (Priest, Wizard)"
+                    },
+                    {
+                        "range":13,
+                        "item":"Manual of Puissant Skill at Arms (Warrior)"
+                    },
+                    {
+                        "range":14,
+                        "item":"Manual of Quickness in Action"
+                    },
+                    {
+                        "range":15,
+                        "item":"Manual of Stealthy Pilfering (Rogue)"
+                    },
+                    {
+                        "range":16,
+                        "item":"Tome of Clear Thought"
+                    },
+                    {
+                        "range":17,
+                        "item":"Tome of Leadership and Influence"
+                    },
+                    {
+                        "range":18,
+                        "item":"Tome of Understanding"
+                    },
+                    {
+                        "range":19,
+                        "item":"Vacuous Grimoire"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "jewel":{
+                "die":40,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Amulet of Inescapable Location"
+                    },
+                    {
+                        "range":2,
+                        "item":"Amulet of Life Protection"
+                    },
+                    {
+                        "range":3,
+                        "item":"Amulet of the Planes"
+                    },
+                    {
+                        "range":4,
+                        "item":"Amulet of Proof Against Detection and Location"
+                    },
+                    {
+                        "range":5,
+                        "item":"Amulet Versus Undead"
+                    },
+                    {
+                        "range":6,
+                        "item":"Beads of Force"
+                    },
+                    {
+                        "range":7,
+                        "item":"Brooch of Shielding"
+                    },
+                    {
+                        "range":8,
+                        "item":"Gem of Brightness"
+                    },
+                    {
+                        "range":9,
+                        "item":"Gem of Insight"
+                    },
+                    {
+                        "range":10,
+                        "item":"Gem of Seeing"
+                    },
+                    {
+                        "range":11,
+                        "item":"Jewel of Attacks"
+                    },
+                    {
+                        "range":12,
+                        "item":"Jewel of Flawlessness"
+                    },
+                    {
+                        "range":13,
+                        "item":"Medallion of ESP"
+                    },
+                    {
+                        "range":14,
+                        "item":"Medallion of Thought Projection"
+                    },
+                    {
+                        "range":15,
+                        "item":"Necklace of Adaptation"
+                    },
+                    {
+                        "range":[16,17],
+                        "item":"Necklace of Missiles"
+                    },
+                    {
+                        "range":18,
+                        "item":"Necklace of Prayer Beads (Priest)"
+                    },
+                    {
+                        "range":19,
+                        "item":"Necklace of Strangulation"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    },
+                    {
+                        "range":21,
+                        "item":"Pearl of Power (Wizard)"
+                    },
+                    {
+                        "range":22,
+                        "item":"Pearl of the Sirines"
+                    },
+                    {
+                        "range":23,
+                        "item":"Pearl of Wisdom (Priest)"
+                    },
+                    {
+                        "range":24,
+                        "item":"Periapt of Foul Rotting"
+                    },
+                    {
+                        "range":25,
+                        "item":"Periapt of Health"
+                    },
+                    {
+                        "range":26,
+                        "item":"Periapt of Proof Against Poison"
+                    },
+                    {
+                        "range":27,
+                        "item":"Periapt of Wound Closure"
+                    },
+                    {
+                        "range":28,
+                        "item":"Phylactery of Faithfulness (Priest)"
+                    },
+                    {
+                        "range":29,
+                        "item":"Phylactery of Long Years (Priest)"
+                    },
+                    {
+                        "range":30,
+                        "item":"Phylactery of Monstrous Attention (Priest)"
+                    },
+                    {
+                        "range":31,
+                        "item":"Scarab of Death"
+                    },
+                    {
+                        "range":32,
+                        "item":"Scarab of Enraging Enemies"
+                    },
+                    {
+                        "range":33,
+                        "item":"Scarab of Insanity"
+                    },
+                    {
+                        "range":34,
+                        "item":"Scarab of Protection"
+                    },
+                    {
+                        "range":35,
+                        "item":"Scarab Versus Golems"
+                    },
+                    {
+                        "range":36,
+                        "item":"Talisman of Pure Good (Priest)"
+                    },
+                    {
+                        "range":37,
+                        "item":"Talisman of the Sphere (Wizard)"
+                    },
+                    {
+                        "range":38,
+                        "item":"Talisman of Ultimate Evil (Priest)"
+                    },
+                    {
+                        "range":39,
+                        "item":"Talisman of Zagy"
+                    },
+                    {
+                        "range":40,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "cloak":{
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Cloak of Arachnida"
+                    },
+                    {
+                        "range":2,
+                        "item":"Cloak of Displacement"
+                    },
+                    {
+                        "range":[3,4],
+                        "item":"Cloak of Elvenkind"
+                    },
+                    {
+                        "range":5,
+                        "item":"Cloak of Poisonousness"
+                    },
+                    {
+                        "range":[6,8],
+                        "item":"Cloak of Protection"
+                    },
+                    {
+                        "range":9,
+                        "item":"Cloak of the Bat"
+                    },
+                    {
+                        "range":10,
+                        "item":"Cloak of the Manta Ray"
+                    },
+                    {
+                        "range":11,
+                        "item":"Robe of the Archmagi (Wizard)"
+                    },
+                    {
+                        "range":12,
+                        "item":"Robe of Blending"
+                    },
+                    {
+                        "range":13,
+                        "item":"Robe of Eyes (Wizard)"
+                    },
+                    {
+                        "range":14,
+                        "item":"Robe of Powerlessness (Wizard)"
+                    },
+                    {
+                        "range":15,
+                        "item":"Robe of Scintillating Colors (Priest, Wizard)"
+                    },
+                    {
+                        "range":16,
+                        "item":"Robe of Stars (Wizard)"
+                    },
+                    {
+                        "range":[17,18],
+                        "item":"Robe of Useful Items (Wizard)"
+                    },
+                    {
+                        "range":19,
+                        "item":"Robe of Vermin (Wizard)"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "boot":{
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Boots of Dancing"
+                    },
+                    {
+                        "range":2,
+                        "item":"Boots of Elvenkind"
+                    },
+                    {
+                        "range":3,
+                        "item":"Boots of Levitation"
+                    },
+                    {
+                        "range":4,
+                        "item":"Boots of Speed"
+                    },
+                    {
+                        "range":5,
+                        "item":"Boots of Striding and Springing"
+                    },
+                    {
+                        "range":6,
+                        "item":"Boots of the North"
+                    },
+                    {
+                        "range":7,
+                        "item":"Boots of Varied Tracks"
+                    },
+                    {
+                        "range":8,
+                        "item":"Boots, Winged"
+                    },
+                    {
+                        "range":9,
+                        "item":"Bracers of Archery (Warrior)"
+                    },
+                    {
+                        "range":10,
+                        "item":"Bracers of Brachiation"
+                    },
+                    {
+                        "range":[11,12],
+                        "item":"Bracers of Defense"
+                    },
+                    {
+                        "range":13,
+                        "item":"Bracers of Defenselessness"
+                    },
+                    {
+                        "range":14,
+                        "item":"Gauntlets of Dexterity"
+                    },
+                    {
+                        "range":15,
+                        "item":"Gauntets of Fumbling"
+                    },
+                    {
+                        "range":16,
+                        "item":"Gauntlets of Ogre Power (Priest, Rogue, Warrior)"
+                    },
+                    {
+                        "range":17,
+                        "item":"Gauntlets of Swimming and Climbing (Priest, Rogue, Warrior)"
+                    },
+                    {
+                        "range":18,
+                        "item":"Gloves of Missile Snaring"
+                    },
+                    {
+                        "range":19,
+                        "item":"Slippers of Spider Climbing"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "girdle":{
+                "die":20,
+                "options":[
+                    {
+                        "range":[1,3],
+                        "item":"Girdle of Dwarvenkind"
+                    },
+                    {
+                        "range":4,
+                        "item":"Girdle of Femininity/Masculinity (Priest, Rogue, Warrior)"
+                    },
+                    {
+                        "range":[5,6],
+                        "item":"Girdle of Giant Strength (Priest, Rogue Warrior)"
+                    },
+                    {
+                        "range":[7,9],
+                        "item":"Girdle of Many Pouches"
+                    },
+                    {
+                        "range":10,
+                        "item":"Hat of Disguise"
+                    },
+                    {
+                        "range":11,
+                        "item":"Hat of Stupidity"
+                    },
+                    {
+                        "range":12,
+                        "item":"Helm of Brilliance"
+                    },
+                    {
+                        "range":[13,14],
+                        "item":"Helm of Comprehending Languages and Reading Magic"
+                    },
+                    {
+                        "range":15,
+                        "item":"Helm of Opposite Alignment"
+                    },
+                    {
+                        "range":16,
+                        "item":"Helm of Telepathy"
+                    },
+                    {
+                        "range":17,
+                        "item":"Helm of Teleportation"
+                    },
+                    {
+                        "range":[18,19],
+                        "item":"Helm of Underwater Action"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "bag":{
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Alchemy Jug"
+                    },
+                    {
+                        "range":2,
+                        "item":"Bag of Beans"
+                    },
+                    {
+                        "range":3,
+                        "item":"Bag of Devouring"
+                    },
+                    {
+                        "range":[4,7],
+                        "item":"Bag of Holding"
+                    },
+                    {
+                        "range":8,
+                        "item":"Bag of Transmuting"
+                    },
+                    {
+                        "range":9,
+                        "item":"Bag of Tricks"
+                    },
+                    {
+                        "range":10,
+                        "item":"Beaker of Plentiful Potions"
+                    },
+                    {
+                        "range":11,
+                        "item":"Bucknard's Everfull Purse"
+                    },
+                    {
+                        "range":12,
+                        "item":"Decanter of Endless Water"
+                    },
+                    {
+                        "range":13,
+                        "item":"Efreeti Bottle"
+                    },
+                    {
+                        "range":14,
+                        "item":"Eversmoking Bottle"
+                    },
+                    {
+                        "range":15,
+                        "item":"Flask of Curses"
+                    },
+                    {
+                        "range":16,
+                        "item":"Heward's Handy Haversack"
+                    },
+                    {
+                        "range":17,
+                        "item":"Iron Flask"
+                    },
+                    {
+                        "range":18,
+                        "item":"Portable Hole"
+                    },
+                    {
+                        "range":19,
+                        "item":"Pouch of Accessibility"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "dust": {
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Candle of Invocation (Priest)"
+                    },
+                    {
+                        "range":2,
+                        "item":"Dust of Appearance"
+                    },
+                    {
+                        "range":3,
+                        "item":"Dust of Disappearance"
+                    },
+                    {
+                        "range":4,
+                        "item":"Dust of Dryness"
+                    },
+                    {
+                        "range":5,
+                        "item":"Dust of Illusion"
+                    },
+                    {
+                        "range":6,
+                        "item":"Dust of Tracelessness"
+                    },
+                    {
+                        "range":7,
+                        "item":"Dust of Sneezing and Choking"
+                    },
+                    {
+                        "range":8,
+                        "item":"Incense of Meditation (Priest)"
+                    },
+                    {
+                        "range":9,
+                        "item":"Incense of Obsession (Priest)"
+                    },
+                    {
+                        "range":10,
+                        "item":"Ioun Stones"
+                    },
+                    {
+                        "range":11,
+                        "item":"Keoghtom's Ointment"
+                    },
+                    {
+                        "range":12,
+                        "item":"Nolzur's Marvelous Pigments"
+                    },
+                    {
+                        "range":13,
+                        "item":"Philosopher's Stone"
+                    },
+                    {
+                        "range":14,
+                        "item":"Smoke Powder"
+                    },
+                    {
+                        "range":15,
+                        "item":"Sovereign Glue"
+                    },
+                    {
+                        "range":16,
+                        "item":"Stone of Controlling Earth Elementals"
+                    },
+                    {
+                        "range":17,
+                        "item":"Stone of Good Luck (Luckstone)"
+                    },
+                    {
+                        "range":18,
+                        "item":"Stone of Weight (Loadstone)"
+                    },
+                    {
+                        "range":19,
+                        "item":"Universal Solvent"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "tool": {
+                "die":20,
+                "option":[
+                    {
+                        "range":1,
+                        "item":"Brazier Commanding Fire Elementals (Wizard)"
+                    },
+                    {
+                        "range":2,
+                        "item":"Brazier of Sleep Smoke (Wizard)"
+                    },
+                    {
+                        "range":3,
+                        "item":"Broom of Animated Attack"
+                    },
+                    {
+                        "range":4,
+                        "item":"Broom of Flying"
+                    },
+                    {
+                        "range":5,
+                        "item":"Carpet of Flying"
+                    },
+                    {
+                        "range":6,
+                        "item":"Mattock of the Titans (Warrior)"
+                    },
+                    {
+                        "range":7,
+                        "item":"Maul of the Titans (Warrior)"
+                    },
+                    {
+                        "range":8,
+                        "item":"Mirror of Life Trapping (Wizard)"
+                    },
+                    {
+                        "range":9,
+                        "item":"Mirror of Mental Prowess"
+                    },
+                    {
+                        "range":10,
+                        "item":"Mirror of Opposition"
+                    },
+                    {
+                        "range":11,
+                        "item":"Murlynd's Spoon"
+                    },
+                    {
+                        "range":[12,13],
+                        "item":"Rope of Climbing"
+                    },
+                    {
+                        "range":14,
+                        "item":"Rope of Constriction"
+                    },
+                    {
+                        "range":15,
+                        "item":"Rope of Entanglement"
+                    },
+                    {
+                        "range":16,
+                        "item":"Rug of Smothering"
+                    },
+                    {
+                        "range":17,
+                        "item":"Rug of Welcome (Wizard)"
+                    },
+                    {
+                        "range":18,
+                        "item":"Saw of Mighty Cutting (Warrior)"
+                    },
+                    {
+                        "range":19,
+                        "item":"Spade of Colossal Excavation (Warrior)"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "instrument":{
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Chime of Interruption"
+                    },
+                    {
+                        "range":2,
+                        "item":"Chime of Opening"
+                    },
+                    {
+                        "range":3,
+                        "item":"Chime of Hunger"
+                    },
+                    {
+                        "range":4,
+                        "item":"Drums of Deafening"
+                    },
+                    {
+                        "range":5,
+                        "item":"Drums of Panic"
+                    },
+                    {
+                        "range":6,
+                        "item":"Harp of Charming"
+                    },
+                    {
+                        "range":7,
+                        "item":"Harp of Discord"
+                    },
+                    {
+                        "range":8,
+                        "item":"Horn of Blasting"
+                    },
+                    {
+                        "range":9,
+                        "item":"Horn of Bubbles"
+                    },
+                    {
+                        "range":10,
+                        "item":"Horn of Collapsing"
+                    },
+                    {
+                        "range":11,
+                        "item":"Horn of Fog"
+                    },
+                    {
+                        "range":12,
+                        "item":"Horn of Goodness (Evil)"
+                    },
+                    {
+                        "range":13,
+                        "item":"Horn of the Tritons (Priest, Warrior)"
+                    },
+                    {
+                        "range":14,
+                        "item":"Horn of Valhalla"
+                    },
+                    {
+                        "range":15,
+                        "item":"Lyre of Building"
+                    },
+                    {
+                        "range":16,
+                        "item":"Pipes of Haunting"
+                    },
+                    {
+                        "range":17,
+                        "item":"Pipes of Pain"
+                    },
+                    {
+                        "range":18,
+                        "item":"Pipes of Sounding"
+                    },
+                    {
+                        "range":19,
+                        "item":"Pipes of the Sewers"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    }
+                ]
+            },
+            "weird":{
+                "die":40,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Apparatus of Kwalish"
+                    },
+                    {
+                        "range":[2,3],
+                        "item":"Boat, Folding"
+                    },
+                    {
+                        "range":4,
+                        "item":"Bowl Commanding Water Elementals (Wizard)"
+                    },
+                    {
+                        "range":5,
+                        "item":"Bowl of Watery Death (Wizard)"
+                    },
+                    {
+                        "range":6,
+                        "item":"Censer Controlling Air Elementals (Wizard)"
+                    },
+                    {
+                        "range":7,
+                        "item":"Censer of Summoning Hostile Air Elementals (Wizard)"
+                    },
+                    {
+                        "range":[8,9],
+                        "item":"Crystal Ball (Wizard)"
+                    },
+                    {
+                        "range":10,
+                        "item":"Crystal Hypnosis Ball (Wizard)"
+                    },
+                    {
+                        "range":11,
+                        "item":"Cube of Force"
+                    },
+                    {
+                        "range":[12,13],
+                        "item":"Cube of Frost Resistance"
+                    },
+                    {
+                        "range":14,
+                        "item":"Cubic Gate"
+                    },
+                    {
+                        "range":15,
+                        "item":"Daern's Instant Fortress"
+                    },
+                    {
+                        "range":16,
+                        "item":"Deck of Illusions"
+                    },
+                    {
+                        "range":17,
+                        "item":"Deck of Many Things"
+                    },
+                    {
+                        "range":18,
+                        "item":"Eyes of Charming (Wizard)"
+                    },
+                    {
+                        "range":19,
+                        "item":"Eyes of Minute Seeing"
+                    },
+                    {
+                        "range":20,
+                        "item":"DM's Choice"
+                    },
+                    {
+                        "range":21,
+                        "item":"Eyes of Petrification"
+                    },
+                    {
+                        "range":22,
+                        "item":"Eyes of the Eagle"
+                    },
+                    {
+                        "range":[23,24],
+                        "item":"Figurine of Wondrous Power"
+                    },
+                    {
+                        "range":25,
+                        "item":"Horseshoes of a Zephyr"
+                    },
+                    {
+                        "range":[26,27],
+                        "item":"Horseshoes of Speed"
+                    },
+                    {
+                        "range":28,
+                        "item":"Iron Bands of Bilarro"
+                    },
+                    {
+                        "range":29,
+                        "item":"Lens of Detection"
+                    },
+                    {
+                        "range":30,
+                        "item":"Quaal's Feather Token"
+                    },
+                    {
+                        "range":[31,32],
+                        "item":"Quiver of Ehlonna"
+                    },
+                    {
+                        "range":33,
+                        "item":"Sheet of Smallness"
+                    },
+                    {
+                        "range":34,
+                        "item":"Sphere of Annihilation"
+                    },
+                    {
+                        "range":35,
+                        "item":"Stone Horse"
+                    },
+                    {
+                        "range":36,
+                        "item":"Well of Many Worlds"
+                    },
+                    {
+                        "range":[37,38],
+                        "item":"Wind Fan"
+                    },
+                    {
+                        "range":39,
+                        "item":"Wings of Flying"
+                    },
+                    {
+                        "range":40,
+                        "item":"DM's Choice"
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "type": {
+                "die":20,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Banded mail"
+                    },
+                    {
+                        "range":2,
+                        "item":"Brigadine"
+                    },
+                    {
+                        "range":[3,5],
+                        "item":"Chain mail"
+                    },
+                    {
+                        "range":6,
+                        "item":"Field plate"
+                    },
+                    {
+                        "range":7,
+                        "item":"Full plate"
+                    },
+                    {
+                        "range":8,
+                        "item":"Leather"
+                    },
+                    {
+                        "range":[9,12],
+                        "item":"Plate mail"
+                    },
+                    {
+                        "range":13,
+                        "item":"Ring mail"
+                    },
+                    {
+                        "range":14,
+                        "item":"Scale mail"
+                    },
+                    {
+                        "range":[15,17],
+                        "item":"Shield"
+                    },
+                    {
+                        "range":18,
+                        "item":"Splint mail"
+                    },
+                    {
+                        "range":19,
+                        "item":"Studded leather"
+                    },
+                    {
+                        "range":20,
+                        "item":"Special"
+                    }
+                ]
+            },
+            "adjustment": {
+                "die":20,
+                "options":[
+                    {
+                        "range":[1,2],
+                        "adjustment":"-1"
+                    },
+                    {
+                        "range":[3,10],
+                        "adjustment":"+1"
+                    },
+                    {
+                        "range":[11,14],
+                        "adjustment":"+2"
+                    },
+                    {
+                        "range":[15,17],
+                        "adjustment":"+3"
+                    },
+                    {
+                        "range":[18,19],
+                        "adjustment":"+4"
+                    },
+                    {
+                        "range":20,
+                        "adjustment":"+5"
+                    }
+                ]
+            },
+            "special":{
+                "die":10,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Armor of Command",
+                        "type":"Full Plate"
+                    },
+                    {
+                        "range":2,
+                        "item":"Armor of Blending",
+                        "type":"roll"
+                    },
+                    {
+                        "range":3,
+                        "item":"Armor of Missile Attraction",
+                        "type":"roll"
+                    },
+                    {
+                        "range":4,
+                        "item":"Armor of Rage",
+                        "type":"Full Plate"
+                    },
+                    {
+                        "range":5,
+                        "item":"Elven Chain Mail",
+                        "type":"Chain Mail"
+                    },
+                    {
+                        "range":6,
+                        "item":"Plate Mail of Etherealness",
+                        "type":"Plate Mail"
+                    },
+                    {
+                        "range":7,
+                        "item":"Plate Mail of Fear",
+                        "type":"Plate Mail"
+                    },
+                    {
+                        "range":8,
+                        "item":"Plate Mail of Vulnerability",
+                        "type":"Plate Mail"
+                    },
+                    {
+                        "range":9,
+                        "item":"Shield, Large, +1, +4 vs. Missiles",
+                        "type":"Shield"
+                    },
+                    {
+                        "range":10,
+                        "item":"Shield -1, Missile Attractor",
+                        "type":"Shield"
+                    }
+                ]
+            },
+            "size": {
+                "die":100,
+                "options":[
+                    {
+                        "range":[1,65],
+                        "item":"Human"
+                    },
+                    {
+                        "range":[66,85],
+                        "item":"Elf"
+                    },
+                    {
+                        "range":[86,95],
+                        "item":"Dwarf"
+                    },
+                    {
+                        "range":[96,100],
+                        "item":"Gnome and Halfling"
+                    }
+                ]
+            }
+        },
+        "weapon":{
+            "type":{
+                "die":60,
+                "options":[
+                    {
+                        "range":1,
+                        "item":"Arrow",
+                        "quantity":[4,24]
+                    },
+                    {
+                        "range":2,
+                        "item":"Arrow",
+                        "quantity":[3,18]
+                    },
+                    {
+                        "range":3,
+                        "item":"Arrow",
+                        "quantity":[2,12]
+                    },
+                    {
+                        "range":[4,5],
+                        "item":"Axe"
+                    },
+                    {
+                        "range":6,
+                        "item":"Battle axe"
+                    },
+                    {
+                        "range":7,
+                        "item":"Bolt",
+                        "quantity":[2,20]
+                    },
+                    {
+                        "range":8,
+                        "item":"Bolt",
+                        "quantity":[2,12]
+                    },
+                    {
+                        "range":9,
+                        "item":"Bullet, Sling",
+                        "quantity":[3,12]
+                    },
+                    {
+                        "range":[10,12],
+                        "item":"Dagger"
+                    },
+                    {
+                        "range":13,
+                        "item":"Dart",
+                        "quantity":[3,12]
+                    },
+                    {
+                        "range":14,
+                        "item":"Flail"
+                    },
+                    {
+                        "range":15,
+                        "item":"Javelin",
+                        "quantity":[1,2]
+                    },
+                    {
+                        "range":16,
+                        "item":"Knife"
+                    },
+                    {
+                        "range":17,
+                        "item":"Lance"
+                    },
+                    {
+                        "range":[18,19],
+                        "item":"Mace"
+                    },
+                    {
+                        "range":20,
+                        "item":"Special"
+                    },
+                    {
+                        "range":[21,22],
+                        "item":"Military Pick"
+                    },
+                    {
+                        "range":[23,24],
+                        "item":"Morning Star"
+                    },
+                    {
+                        "range":[25,26],
+                        "item":"Pole Arm"
+                    },
+                    {
+                        "range":[27,30],
+                        "item":"Scimitar"
+                    },
+                    {
+                        "range":[31,36],
+                        "item":"Spear"
+                    },
+                    {
+                        "range":[37,54],
+                        "item":"Sword"
+                    },
+                    {
+                        "range":[55,56],
+                        "item":"Trident"
+                    },
+                    {
+                        "range":[57,58],
+                        "item":"Warhammer"
+                    },
+                    {
+                        "range":[59,60],
+                        "item":"Special"
+                    }
+                ]
+            },
+            "adjustment":{
+                "die":20,
+                "options":[
+                    {
+                        "range":[1,2],
+                        "adjustment":"-1"
+                    },
+                    {
+                        "range":[3,10],
+                        "adjustment":"+1"
+                    },
+                    {
+                        "range":[11,14],
+                        "adjustment":"+2"
+                    },
+                    {
+                        "range":[15,17],
+                        "adjustment":"+3"
+                    },
+                    {
+                        "range":[18,19],
+                        "adjustment":"+4"
+                    },
+                    {
+                        "range":20,
+                        "adjustment":"+5"
+                    }
+                ]
+            },
+            "special":{
+                "die":200,
+                "options":[
+                    {
+                        "range":3,
+                        "item":"Arrow of Direction"
+                    },
+                    {
+                        "range":6,
+                        "item":"Arrow of Slaying"
+                    },
+                    {
+                        "range":9,
+                        "item":"Axe +2, Throwing"
+                    },
+                    {
+                        "range":12,
+                        "item":"Axe of Hurling"
+                    },
+                    {
+                        "range":[15,18],
+                        "item":"Bow +1"
+                    },
+                    {
+                        "range":21,
+                        "item":"Crossbow of Accuracy, +3"
+                    },
+                    {
+                        "range":24,
+                        "item":"Crossbow of Distance"
+                    },
+                    {
+                        "range":27,
+                        "item":"Crossbow of Speed"
+                    },
+                    {
+                        "range":[30,33],
+                        "item":"Dagger +1, +2 vs. Tiny or Small creatures"
+                    },
+                    {
+                        "range":[36,39],
+                        "item":"Dagger +2, +3 vs. larger than man-sized"
+                    },
+                    {
+                        "range":42,
+                        "item":"Dagger +2, Longtooth"
+                    },
+                    {
+                        "range":45,
+                        "item":"Dagger of Throwing"
+                    },
+                    {
+                        "range":48,
+                        "item":"Dagger of Venom"
+                    },
+                    {
+                        "range":51,
+                        "item":"Dart of Homing"
+                    },
+                    {
+                        "range":54,
+                        "item":"Hammer +3, Dwarven Thrower"
+                    },
+                    {
+                        "range":57,
+                        "item":"Hammer of Thunderbolts"
+                    },
+                    {
+                        "range":60,
+                        "item":"DM's Choice"
+                    },
+                    {
+                        "range":63,
+                        "item":"Hornblade"
+                    },
+                    {
+                        "range":66,
+                        "item":"Javelin of Lightning"
+                    },
+                    {
+                        "range":69,
+                        "item":"Javelin of Piercing"
+                    },
+                    {
+                        "range":[72,75],
+                        "item":"Knife, Buckle"
+                    },
+                    {
+                        "range":[78,81],
+                        "item":"Mace of Disruption"
+                    },
+                    {
+                        "range":84,
+                        "item":"Net of Entrapment"
+                    },
+                    {
+                        "range":87,
+                        "item":"Net of Snaring"
+                    },
+                    {
+                        "range":[90,93],
+                        "item":"Quarterstaff, Magical"
+                    },
+                    {
+                        "range":96,
+                        "item":"Scimitar of Speed"
+                    },
+                    {
+                        "range":[99,102],
+                        "item":"Sling of Seeking +2"
+                    },
+                    {
+                        "range":105,
+                        "item":"Spear, Cursed Backbiter"
+                    },
+                    {
+                        "range":108,
+                        "item":"Trident of Fish Command"
+                    },
+                    {
+                        "range":111,
+                        "item":"Trident of Submission"
+                    },
+                    {
+                        "range":114,
+                        "item":"Trident of Warning"
+                    },
+                    {
+                        "range":117,
+                        "item":"Trident of Yearning"
+                    },
+                    {
+                        "range":120,
+                        "item":"DM's Choice"
+                    },
+                    {
+                        "range":123,
+                        "item":"Sun Blade"
+                    },
+                    {
+                        "range":[126,141],
+                        "item":"Sword +1, +2 vs. magic-using & enchanted creatures"
+                    },
+                    {
+                        "range":[144,150],
+                        "item":"Sword +1, +3 vs. lycanthropes & shape-changers"
+                    },
+                    {
+                        "range":[153,156],
+                        "item":"Sword +1, +3 vs. regenerating creatures"
+                    },
+                    {
+                        "range":159,
+                        "item":"Sword +1, +4 vs. reptiles"
+                    },
+                    {
+                        "range":[162,165],
+                        "item":"Sword +1, Cursed"
+                    },
+                    {
+                        "range":168,
+                        "item":"Sword +1, Flame Tongue"
+                    },
+                    {
+                        "range":171,
+                        "item":"Sword +1, Luck Blade"
+                    },
+                    {
+                        "range":174,
+                        "item":"Sword +2, Dragon Slayer"
+                    },
+                    {
+                        "range":177,
+                        "item":"Sword +2, Giant Slayer"
+                    },
+                    {
+                        "range":180,
+                        "item":"DM's Choice"
+                    },
+                    {
+                        "range":181,
+                        "item":"Sword +2, Nine Lives Stealer"
+                    },
+                    {
+                        "range":[182,183],
+                        "item":"Sword +3, Frost Brand"
+                    },
+                    {
+                        "range":184,
+                        "item":"Sword +4, Defender"
+                    },
+                    {
+                        "range":185,
+                        "item":"Sword +5, Defender"
+                    },
+                    {
+                        "range":186,
+                        "item":"Sword +5, Holy Avenger"
+                    },
+                    {
+                        "range":[187,188],
+                        "item":"Sword -2, Cursed"
+                    },
+                    {
+                        "range":189,
+                        "item":"Sword of Dancing"
+                    },
+                    {
+                        "range":190,
+                        "item":"Sword of Life Stealing"
+                    },
+                    {
+                        "range":191,
+                        "item":"Sword of Sharpness"
+                    },
+                    {
+                        "range":192,
+                        "item":"Sword of the Planes"
+                    },
+                    {
+                        "range":193,
+                        "item":"Sword of Wounding"
+                    },
+                    {
+                        "range":[194,196],
+                        "item":"Sword, Cursed Berserking"
+                    },
+                    {
+                        "range":197,
+                        "item":"Sword, Short, Quickness (+2)"
+                    },
+                    {
+                        "range":199,
+                        "item":"Sword, Vorpal Weapon"
+                    },
+                    {
+                        "range":200,
+                        "item":"DM's Choice"
+                    }
+                ]
+            }
+        }
+    },
+    "descriptions":{
+        "source": "http://angband.oook.cz/steamband/Treasure.pdf",
+        "source author": "Courtney Campbell",
+        "containers": {
+            "Bag": {
+                "materials": {
+                    "fabrics": {
+                        "die": 100,
+                        "options": [
+                            {
+                                "range":[1,90],
+                                "type":"woven"
+                            },
+                            {
+                                "range":[91,92],
+                                "type":"non-woven"
+                            },
+                            {
+                                "range":[93,98],
+                                "type":"knitted"
+                            },
+                            {
+                                "range":[99,100],
+                                "type":"netted"
+                            }
+                        ]
+                    }
+                },
+                "security" : [
+                    "rope ties",
+                    "snaps",
+                    "buckle",
+                    "knots"
+                ],
+                "type": {
+                    "backpack": {
+                        "capacity": 50
+                    },
+                    "small belt pouch": {
+                        "capacity": 5
+                    },
+                    "large belt pouch": {
+                        "capacity": 8
+                    },
+                    "small sack": {
+                        "capacity": 15
+                    },
+                    "large sack": {
+                        "capacity": 30
+                    },
+                    "small saddlebag": {
+                        "capacity": 20
+                    },
+                    "large saddlebag": {
+                        "capacity": 30
+                    }
+                },
+                "comment": {
+                    "type": "TSR 2101 Player's Handbook Table 50"
+                }
+            },
+            "Cask":{
+                "materials": {
+                    "woods": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range":[1,5],
+                                "type":"soft"
+                            },
+                            {
+                                "range":[6,20],
+                                "type":"hard"
+                            }
+                        ]
+                    }
+                },
+                "security" : [
+                    "wax seal",
+                    "brand"
+                ],
+                "type": {
+                    "gallon cask":  {
+                        "capacity": 1
+                    },
+                    "barrel": {
+                        "capacity": 32
+                    },
+                    "hogshead": {
+                        "capacity": 60
+                    },
+                    "butt": {
+                        "capacity": 130
+                    },
+                    "tun": {
+                        "capacity": 252
+                    },
+                    "quarter cask": {
+                        "capacity": 12
+                    }
+                },
+                "comment": {
+                    "type": "measured in gallons"
+                }
+            },
+            "Chest": {
+                "materials": {
+                    "woods": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range": [
+                                    1,
+                                    5
+                                ],
+                                "type": "soft"
+                            },
+                            {
+                                "range": [
+                                    6,
+                                    20
+                                ],
+                                "type": "hard"
+                            }
+                        ]
+                    },
+                    "metals": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range": [
+                                    1,
+                                    2
+                                ],
+                                "type": "fantasy"
+                            },
+                            {
+                                "range": [
+                                    3,
+                                    20
+                                ],
+                                "type": "real"
+                            }
+                        ]
+                    }
+                },
+                "security": [
+                    "latch",
+                    "clasp",
+                    "lock",
+                    "rope tie",
+                    "buckle",
+                    "padlock"
+                ],
+                "type": {
+                    "coffer": {
+                        "capacity": 40
+                    },
+                    "small chest": {
+                        "capacity": 40
+                    },
+                    "large chest": {
+                        "capacity": 100
+                    },
+                    "trunk": {
+                        "capacity": 100
+                    }
+                },
+                "comment": {
+                    "type": "TSR 2101 Player's Handbook Table 50"
+                }
+            },
+            "Jar":{
+                "materials": {
+                    "glass": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range":[1,10],
+                                "type":"soda-lime"
+                            },
+                            {
+                                "range":[1,16],
+                                "type":"lead"
+                            },
+                            {
+                                "range":[17,20],
+                                "type":"obsidian"
+                            }
+                        ],
+                        "comment": "This content is original and doesn't come from hackslashmaster"
+                    },
+                    "woods": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range":[1,5],
+                                "type":"soft"
+                            },
+                            {
+                                "range":[6,20],
+                                "type":"hard"
+                            }
+                        ]
+                    },
+                    "metals": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range":[1,2],
+                                "type":"fantasy"
+                            },
+                            {
+                                "range":[3,20],
+                                "type":"real"
+                            }
+                        ]
+                    },
+                    "pottery / ceramic": {
+                        "die": 20,
+                        "options": [
+                            {
+                                "range":[1,10],
+                                "type":"earthenware"
+                            },
+                            {
+                                "range":[1,16],
+                                "type":"stoneware"
+                            },
+                            {
+                                "range":[17,20],
+                                "type":"porcelain"
+                            }
+                        ],
+                        "comment": "This content is original and doesn't come from hackslashmaster"
+                    }
+                },
+                "security" : [
+                    "wax seal",
+                    "stopper",
+                    "lid"
+                ],
+                "type": {
+                    "jar":  {
+                        "capacity": 0.5
+                    },
+                    "urn":  {
+                        "capacity": 0.25
+                    }
+                },
+                "comment": {
+                    "type": "measured in gallons"
+                }
+            },
+            "Niche":{
+                "security" : [
+                    "concealed",
+                    "latch",
+                    "lock",
+                    "padlock"
+                ],
+                "type": {
+                    "floor niche":  {
+                        "capacity": 60
+                    },
+                    "wall niche":  {
+                        "capacity": 40
+                    },
+                    "ceiling niche":  {
+                        "capacity": 20
+                    }
+                }
+            },
+            "Loose":{
+                "type": {
+                    "stacked":  {
+                    },
+                    "organized":  {
+                    },
+                    "piled":  {
+                    },
+                    "scattered":  {
+                    }
+                }
+            },
+            "Hidden": {
+                "type": {
+                    "concealed : in a drawer":  {
+                    },
+                    "concealed : under a bed or blanket":  {
+                    },
+                    "invisible":  {
+                    },
+                    "secret space under container":  {
+                    },
+                    "secret compartment":  {
+                    },
+                    "inside an ordinary item in plain view":  {
+                    },
+                    "disguised to appear as something else":  {
+                    },
+                    "under a heap of trash or dung":  {
+                    },
+                    "under a loose stone in the floor or wall":  {
+                    },
+                    "in a nearby secret or concealed room":  {
+                    }
+                }
+            }
+        },
+        "trapped": {
+            "die": 20,
+            "options": [
+                {
+                    "range":[1,1],
+                    "type":"Contact Poison on Treasure"
+                },
+                {
+                    "range":[2,2],
+                    "type":"Contact Poison on Container"
+                },
+                {
+                    "range":[3,4],
+                    "type":"Poisoned needles in lock"
+                },
+                {
+                    "range":[5,6],
+                    "type":"Poisoned needles in handle"
+                },
+                {
+                    "range":[7,8],
+                    "type":"Poisoned spring darts in front"
+                },
+                {
+                    "range":[9,10],
+                    "type":"Poisoned spring darts on top"
+                },
+                {
+                    "range":[11,12],
+                    "type":"Poisoned spring darts from inside lid"
+                },
+                {
+                    "range":[13,14],
+                    "type":"Poisoned spring darts from inside bottom"
+                },
+                {
+                    "range":[15,15],
+                    "type":"Blade scything across top"
+                },
+                {
+                    "range":[16,16],
+                    "type":"Poisonous vermin (insects, reptiles)"
+                },
+                {
+                    "range":[17,17],
+                    "type":"Poison gas released"
+                },
+                {
+                    "range":[18,18],
+                    "type":"Trap door opens"
+                },
+                {
+                    "range":[19,19],
+                    "type":"Stone block drops"
+                },
+                {
+                    "range":[20,20],
+                    "type":"Magic"
+                }
+            ],
+            "comment": {
+                "chance" : "1 in 20 chance container is trapped. 1-5 in 20 chance chest is trapped"
+            }
+        },
+        "treasure container map": {
+            "coins": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,8],
+                        "type":"Bag"
+                    },
+                    {
+                        "range":[21,22],
+                        "type":"Cask"
+                    },
+                    {
+                        "range":[9,15],
+                        "type":"Chest"
+                    },
+                    {
+                        "range":[16,16],
+                        "type":"Jar"
+                    },
+                    {
+                        "range":[17,18],
+                        "type":"Niche"
+                    },
+                    {
+                        "range":[19,19],
+                        "type":"Loose"
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Hidden"
+                    }
+                ]
+            },
+            "gems": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,12],
+                        "type":"Bag"
+                    },
+                    {
+                        "range":[21,22],
+                        "type":"Cask"
+                    },
+                    {
+                        "range":[13,15],
+                        "type":"Chest"
+                    },
+                    {
+                        "range":[16,17],
+                        "type":"Jar"
+                    },
+                    {
+                        "range":[18,19],
+                        "type":"Niche"
+                    },
+                    {
+                        "range":[22,23],
+                        "type":"Loose"
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Hidden"
+                    }
+                ]
+            },
+            "art objects": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,5],
+                        "type":"Bag"
+                    },
+                    {
+                        "range":[6,7],
+                        "type":"Cask"
+                    },
+                    {
+                        "range":[8,9],
+                        "type":"Chest"
+                    },
+                    {
+                        "range":[103,104],
+                        "type":"Jar"
+                    },
+                    {
+                        "range":[10,10],
+                        "type":"Niche"
+                    },
+                    {
+                        "range":[11,19],
+                        "type":"Loose"
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Hidden"
+                    }
+                ]
+            },
+            "magical items": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,3],
+                        "type":"Bag"
+                    },
+                    {
+                        "range":[4,4],
+                        "type":"Cask"
+                    },
+                    {
+                        "range":[5,11],
+                        "type":"Chest"
+                    },
+                    {
+                        "range":[12,12],
+                        "type":"Jar"
+                    },
+                    {
+                        "range":[13,18],
+                        "type":"Niche"
+                    },
+                    {
+                        "range":[19,19],
+                        "type":"Loose"
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Hidden"
+                    }
+                ]
+            }
+        },
+        "materials": {
+            "fabrics": {
+                "animal": [
+                    "Wool",
+                    "Wollen Wool",
+                    "Worsted Wool",
+                    "Goat (Cashmere)",
+                    "Goat (Mohair)",
+                    "Alpaca",
+                    "Vicuna",
+                    "llama",
+                    "Camel (Alpaca)",
+                    "Rabbit (angora)",
+                    "Wadmal",
+                    "Silk (Worm)",
+                    "Silk (Spider)"
+                ],
+                "plant": [
+                    "Grass",
+                    "Rush",
+                    "Hemp",
+                    "Sisal",
+                    "Coconut (Coir)",
+                    "Straw",
+                    "Bamboo",
+                    "Cotton",
+                    "Flax",
+                    "Ramie",
+                    "Jute (Burlap)",
+                    "Linen",
+                    "Model (tree)",
+                    "Kapok (tree)",
+                    "Pina (tree)"
+                ],
+                "woven": [
+                    "Barkcloth",
+                    "Broadcloth",
+                    "Burlap",
+                    "Calico",
+                    "Cambric",
+                    "Canvas",
+                    "Cheesecloth",
+                    "Chiffon",
+                    "Cloth of gold",
+                    "Crape",
+                    "Denim",
+                    "Flannel",
+                    "Gauze",
+                    "Haircloth",
+                    "Herringbone",
+                    "Himroo",
+                    "Hodden",
+                    "Khaki",
+                    "Longcloth",
+                    "Moleskin",
+                    "Muslin",
+                    "Oilskin",
+                    "Ottoman",
+                    "Oxford",
+                    "Samite",
+                    "Sateen",
+                    "Satin",
+                    "Scarlet",
+                    "Seersucker",
+                    "Silk",
+                    "Tweed",
+                    "Twill",
+                    "Brocade",
+                    "Corduroy",
+                    "Plush",
+                    "Fleece",
+                    "Terrycloth",
+                    "Velvet",
+                    "Velveteen",
+                    "Wadmal"
+                ],
+                "non-woven": [
+                    "Felt",
+                    "Cedar Bark"
+                ],
+                "knitted": [
+                    "Velour"
+                ],
+                "netted": [
+                    "Fishnet",
+                    "Lace"
+                ]
+            },
+            "woods": {
+                "soft": [
+                    "Pine",
+                    "Cedar",
+                    "Cypress",
+                    "Fir",
+                    "Yew",
+                    "Hemlock",
+                    "Larch",
+                    "Redcedar",
+                    "Redwood",
+                    "Spruce"
+                ],
+                "hard": [
+                    "Alder",
+                    "Applewood",
+                    "Ash",
+                    "Aspen",
+                    "Balsa Beech",
+                    "Birch",
+                    "Basswood",
+                    "Blackwood",
+                    "Boxwood",
+                    "Buckeye",
+                    "Cherry",
+                    "Chestnut",
+                    "Cottonwood",
+                    "Dogwood",
+                    "Ebony",
+                    "Elm",
+                    "Eucalyptus",
+                    "Gum",
+                    "Hickory",
+                    "Ironwood",
+                    "Locust",
+                    "Maple",
+                    "Oak",
+                    "Poplar",
+                    "Sandalwood",
+                    "Sassafras",
+                    "Teak",
+                    "Walnut",
+                    "Willow"
+                ],
+                "fantasy": [
+                    "Bluewood (errie blue leaves, burns bright blue, silver hue to wood)",
+                    "Duskwood (smoky gray wood, hard as iron, fire resistant)",
+                    "Hiexel (Bark is useful as paper)",
+                    "Laspar (golden yellow wood)",
+                    "Phendar (green-brown wood with thin black grain lines)",
+                    "Shadowtop (strong fibrous wood, good for ropemaking, unsuitable for carving or loadbearing; it splits)",
+                    "Silverbark (dry, brittle weak wood)",
+                    "Suth (hard durable wood, hard to work with, very strong)",
+                    "Vundwood (red-brown with a spicy smell)",
+                    "Weirwood (will not burn in a normal fire, resilient durable wood)",
+                    "Zabunter (black bark and wood, strong, easily worked)",
+                    "Darkwood (weighs half as much as normal wood)",
+                    "Ironbark (as strong as metal)"
+                ]
+            },
+            "metals": {
+                "real": [
+                    "Bronze",
+                    "Brass",
+                    "Copper",
+                    "Electrum",
+                    "Gold",
+                    "Iron",
+                    "Lead",
+                    "Platinum",
+                    "Silver",
+                    "Steel",
+                    "Titanium",
+                    "Cobalt",
+                    "Nickel",
+                    "Palladium",
+                    "Tungsten",
+                    "Coral"
+                ],
+                "fantasy": [
+                    "Mithral,",
+                    "Adamantine,",
+                    "Cold Iron,",
+                    "Starmetal,",
+                    "Orichalcum,",
+                    "Hell Metals (Green Steel/devil, Morghuth Iron/daemon, Bloodiron/demon)",
+                    "Astral metals (Ferroplasm, Driftmetal)",
+                    "Ice metals (Blue, Stygian, Rimefire)"
+                ]
+            },
+            "stones": {
+                "real": [
+                    "Marble",
+                    "Slate",
+                    "Basalt",
+                    "Obsidian",
+                    "Pumice",
+                    "Quartz",
+                    "Chalk",
+                    "Coal",
+                    "Flint",
+                    "Lignite",
+                    "Sandstone",
+                    "Shale"
+                ]
+            },
+            "pottery / ceramic" : {
+                "earthenware": [
+                    "terracotta",
+                    "redware",
+                    "majolica",
+                    "lusterware",
+                    "raku",
+                    "ironstone",
+                    "yellowware"
+                ],
+                "stoneware": [
+                    "clay",
+                    "fire clay",
+                    "flintless",
+                    "cane ware",
+                    "crouch ware",
+                    "jasperware",
+                    "rosso antico",
+                    "coade stone"
+                ],
+                "porcelain": [
+                    "hard paste",
+                    "soft paste",
+                    "bone"
+                ]
+            }
+        },
+        "art objects": {
+            "medium": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,2],
+                        "type":"Paper art"
+                    },
+                    {
+                        "range":[3,4],
+                        "type":"Fabric art"
+                    },
+                    {
+                        "range":[5,6],
+                        "type":"Painting"
+                    },
+                    {
+                        "range":[7,8],
+                        "type":"Crafts"
+                    },
+                    {
+                        "range":[9,10],
+                        "type":"Carving"
+                    },
+                    {
+                        "range":[11,12],
+                        "type":"Ceramics"
+                    },
+                    {
+                        "range":[13,14],
+                        "type":"Glasswork"
+                    },
+                    {
+                        "range":[15,17],
+                        "type":"Stonework"
+                    },
+                    {
+                        "range":[18,19],
+                        "type":"Metalwork"
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Jewelry"
+                    }
+                ]
+            },
+            "type": {
+                "Paper art": {
+                    "Ink": [
+                        "Pastel chalk",
+                        "Pastel oil",
+                        "Charcoal",
+                        "Colored pencil",
+                        "Conte",
+                        "Crayon",
+                        "Graphite",
+                        "Ink",
+                        "Colored ink"
+                    ],
+                    "Style": [
+                        "Calligraphy",
+                        "Printing",
+                        "Illustrating a manuscript",
+                        "Illustrating a letter",
+                        "Illustrating a drawing"
+                    ],
+                    "Paper": [
+                        "Paper",
+                        "Canvas",
+                        "Wood",
+                        "Plaster",
+                        "Metal"
+                    ],
+                    "syntax": "{Ink} {Style} on {Paper}"
+                },
+                "Fabric art": [
+                    "Applique",
+                    "Beadwork",
+                    "Crochet",
+                    "Cross-stitch",
+                    "Dying",
+                    "Embroidery",
+                    "Felting",
+                    "Knitting",
+                    "Lace",
+                    "Macrame",
+                    "Nalebinding",
+                    "Needlework",
+                    "Patchwork",
+                    "Passementerie",
+                    "Quilting",
+                    "Rope",
+                    "Rugmaking",
+                    "Sewing",
+                    "Tapestry",
+                    "Textile printing",
+                    "Weaving"
+                ],
+                "Painting": {
+                    "Paint": [
+                        "Acrylic",
+                        "Oil Paint",
+                        "Enamel Paint",
+                        "Encaustic (wax)",
+                        "Fresco",
+                        "Gesso",
+                        "Glaze",
+                        "Gouache",
+                        "Ink",
+                        "Sumi",
+                        "Tempera",
+                        "Watercolor"
+                    ],
+                    "Surface": [
+                        "Buildings",
+                        "Canvas",
+                        "Clay",
+                        "Cloth",
+                        "Glass",
+                        "Lacquer",
+                        "Metal",
+                        "Paper",
+                        "Wood",
+                        "Ceramic"
+                    ],
+                    "syntax": "{Paint} painting on {Surface}"
+                },
+                "Crafts": [
+                    "Bracelets",
+                    "Lace",
+                    "Origami",
+                    "Scrap-booking",
+                    "Wood burning",
+                    "Egg Decorating",
+                    "Mosaic"
+                ],
+                "Carving": [
+                    "Bone",
+                    "Gourd",
+                    "Ice",
+                    "Ivory",
+                    "Scrimshaw",
+                    "Stone",
+                    "Wood"
+                ],
+                "Ceramics": [
+                    "Figures/Statuary",
+                    "Tiles",
+                    "Tableware/China",
+                    "Pottery"
+                ],
+                "Glasswork": [
+                    "Beads",
+                    "Decanters",
+                    "Lamps/Chandeliers",
+                    "Goblets",
+                    "Crystal",
+                    "Pipes",
+                    "Bowls",
+                    "Windows",
+                    "Stained",
+                    "Flowers",
+                    "Tiles",
+                    "Etched and Engraved"
+                ],
+                "Stonework": {
+                    "Style": [
+                        "Sculpture",
+                        "Statues",
+                        "Carvings",
+                        "Engravings",
+                        "Lapidary",
+                        "Pietra dura",
+                        "Fountains"
+                    ],
+                    "Stone": [
+                        "Brick",
+                        "Gems",
+                        "Marble",
+                        "Slate",
+                        "Granite",
+                        "Travertine",
+                        "Limestone",
+                        "Sandstone"
+                    ],
+                    "syntax": "{Style} made of/in {Stone}"
+                },
+                "Metalwork": [
+                    "Sculpture",
+                    "Furnishings",
+                    "Miniatures",
+                    "Tools",
+                    "Tableware"
+                ],
+                "Jewelry": {
+                    "die": 100,
+                    "options": [
+                        {
+                            "range": [1, 2],
+                            "type": "Anklet"
+                        },
+                        {
+                            "range": [3, 5],
+                            "type": "Armband"
+                        },
+                        {
+                            "range": [6, 7],
+                            "type": "Belt"
+                        },
+                        {
+                            "range": [8, 9],
+                            "type": "Small Box"
+                        },
+                        {
+                            "range": [10, 14],
+                            "type": "Braclet"
+                        },
+                        {
+                            "range": [15, 17],
+                            "type": "Brooch"
+                        },
+                        {
+                            "range": [18, 18],
+                            "type": "Buckle"
+                        },
+                        {
+                            "range": [19, 19],
+                            "type": "Chain"
+                        },
+                        {
+                            "range": [20, 20],
+                            "type": "Chalice"
+                        },
+                        {
+                            "range": [21, 21],
+                            "type": "Choker"
+                        },
+                        {
+                            "range": [22, 22],
+                            "type": "Clasp"
+                        },
+                        {
+                            "range": [23, 23],
+                            "type": "Collar"
+                        },
+                        {
+                            "range": [24, 24],
+                            "type": "Coffer"
+                        },
+                        {
+                            "range": [25, 25],
+                            "type": "Comb"
+                        },
+                        {
+                            "range": [26, 26],
+                            "type": "Coronet"
+                        },
+                        {
+                            "range": [27, 27],
+                            "type": "Crown"
+                        },
+                        {
+                            "range": [28, 28],
+                            "type": "Decanter"
+                        },
+                        {
+                            "range": [29, 29],
+                            "type": "Diadem"
+                        },
+                        {
+                            "range": [30, 32],
+                            "type": "Earring"
+                        },
+                        {
+                            "range": [33, 33],
+                            "type": "Fob"
+                        },
+                        {
+                            "range": [34, 35],
+                            "type": "Goblet"
+                        },
+                        {
+                            "range": [36, 37],
+                            "type": "Headband (fillet)"
+                        },
+                        {
+                            "range": [38, 38],
+                            "type": "Idol"
+                        },
+                        {
+                            "range": [39, 40],
+                            "type": "Locket"
+                        },
+                        {
+                            "range": [41, 41],
+                            "type": "Medal"
+                        },
+                        {
+                            "range": [42, 42],
+                            "type": "Medallion"
+                        },
+                        {
+                            "range": [43, 45],
+                            "type": "Necklace"
+                        },
+                        {
+                            "range": [46, 46],
+                            "type": "Pendant"
+                        },
+                        {
+                            "range": [47, 47],
+                            "type": "Pin"
+                        },
+                        {
+                            "range": [48, 48],
+                            "type": "Orb"
+                        },
+                        {
+                            "range": [49, 53],
+                            "type": "Ring"
+                        },
+                        {
+                            "range": [54, 54],
+                            "type": "Scepter"
+                        },
+                        {
+                            "range": [55, 55],
+                            "type": "Seal"
+                        },
+                        {
+                            "range": [56, 56],
+                            "type": "Statuette"
+                        },
+                        {
+                            "range": [57, 57],
+                            "type": "Tiara"
+                        },
+                        {
+                            "range": [58, 59],
+                            "type": "Mask"
+                        },
+                        {
+                            "range": [60, 60],
+                            "type": "Nose Ring/Stud"
+                        },
+                        {
+                            "range": [61, 62],
+                            "type": "Circlet"
+                        },
+                        {
+                            "range": [63, 64],
+                            "type": "Torc"
+                        },
+                        {
+                            "range": [65, 67],
+                            "type": "Utensils"
+                        },
+                        {
+                            "range": [68, 68],
+                            "type": "Chatelaine"
+                        },
+                        {
+                            "range": [69, 69],
+                            "type": "Cuff link"
+                        },
+                        {
+                            "range": [70, 70],
+                            "type": "Lapel Pin"
+                        },
+                        {
+                            "range": [71, 71],
+                            "type": "Grill"
+                        },
+                        {
+                            "range": [72, 72],
+                            "type": "Bangles"
+                        },
+                        {
+                            "range": [73, 73],
+                            "type": "Body Piercing"
+                        },
+                        {
+                            "range": [74, 74],
+                            "type": "Prayer Beads"
+                        },
+                        {
+                            "range": [75, 75],
+                            "type": "Puzzle"
+                        },
+                        {
+                            "range": [76, 76],
+                            "type": "Aiguillette (decorative cord / ribbon tip)"
+                        },
+                        {
+                            "range": [77, 77],
+                            "type": "Cock Ring"
+                        },
+                        {
+                            "range": [78, 78],
+                            "type": "Pectoral"
+                        },
+                        {
+                            "range": [79, 79],
+                            "type": "Zierscheibe (ornamental disc)"
+                        },
+                        {
+                            "range": [80, 80],
+                            "type": "Icon (small animal, symbol)"
+                        },
+                        {
+                            "range": [81, 81],
+                            "type": "Egg"
+                        },
+                        {
+                            "range": [82, 85],
+                            "type": "Weapon"
+                        },
+                        {
+                            "range": [86, 89],
+                            "type": "Armor"
+                        },
+                        {
+                            "range": [90, 93],
+                            "type": "Tool"
+                        },
+                        {
+                            "range": [94, 99],
+                            "type": "DM's Choice"
+                        },
+                        {
+                            "range": [100, 100],
+                            "type": "Treasure container is bejeweled."
+                        }
+                    ]
+                },
+                "Utensils": [
+                    "Adhesive",
+                    "Adze",
+                    "Ankus (to prod animals with)",
+                    "Anvil",
+                    "Auger",
+                    "Awl",
+                    "Balls",
+                    "Bangles",
+                    "Bell",
+                    "Bellows",
+                    "Block and Tackle",
+                    "Bottle",
+                    "Bow Drill",
+                    "Bowl",
+                    "Branding",
+                    "Iron",
+                    "Brush",
+                    "Buckle",
+                    "Stopper",
+                    "Candelabra",
+                    "Candlestick",
+                    "Cards",
+                    "Carding Comb",
+                    "Carpenter’s square",
+                    "Cauldron",
+                    "Chisel",
+                    "Coffin",
+                    "Combs",
+                    "Corkscrew",
+                    "Crowbar",
+                    "Cup",
+                    "Dice",
+                    "Drill bits",
+                    "Drill",
+                    "Drinking Jack",
+                    "Drinking Horn",
+                    "Dolls",
+                    "Door Handles",
+                    "Ewers",
+                    "Eye-patch",
+                    "File",
+                    "Fingerpick",
+                    "Fish-hooks",
+                    "Flagon",
+                    "Forge",
+                    "Fork",
+                    "Game Pieces",
+                    "Grindstone",
+                    "Goblet",
+                    "Hammer",
+                    "Hilt",
+                    "Hoe",
+                    "Hollow Reed",
+                    "Kettle",
+                    "Key Ring",
+                    "Knives",
+                    "Ladle",
+                    "Loom",
+                    "Mallet",
+                    "Mantle",
+                    "Masks",
+                    "Mirrors",
+                    "Molds",
+                    "Mortar & Pestle",
+                    "Monocle",
+                    "Mug",
+                    "Nails",
+                    "Paint",
+                    "Pan",
+                    "Peg-legs",
+                    "Pickaxe",
+                    "Pitcher",
+                    "Pitchfork",
+                    "Pen Case",
+                    "Planner",
+                    "Platters",
+                    "Pliers",
+                    "Plow",
+                    "Pots",
+                    "Potters Wheel",
+                    "Pouches and small boxes",
+                    "Pulley",
+                    "Rake",
+                    "Rope",
+                    "Salt cellar",
+                    "Saw",
+                    "Scissors",
+                    "Scepters",
+                    "Shepherd’s Crook",
+                    "Sledge",
+                    "Spade",
+                    "Spit",
+                    "Spoon",
+                    "Stein",
+                    "Thimble",
+                    "Tiles",
+                    "Trays",
+                    "Tongs",
+                    "Toys",
+                    "Vestments",
+                    "Wedge",
+                    "Wheelbarrow",
+                    "Whetstone",
+                    "Whitewash",
+                    "Wire",
+                    "Whistle"
+                ]
+            },
+            "subject": {
+                "die": 20,
+                "options": [
+                    {
+                        "range":[1,1],
+                        "type":"Abstract",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[2,2],
+                        "type":"Monster",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[3,3],
+                        "type":"Humanoid"
+                    },
+                    {
+                        "range":[4,5],
+                        "type":"Natural"
+                    },
+                    {
+                        "range":[6,6],
+                        "type":"Supernatural"
+                    },
+                    {
+                        "range":[7,9],
+                        "type":"Local"
+                    },
+                    {
+                        "range":[10,12],
+                        "type":"Historical"
+                    },
+                    {
+                        "range":[13,17],
+                        "type":"Religious"
+                    },
+                    {
+                        "range":[18,19],
+                        "type":"Wealthy/Noble",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[20,20],
+                        "type":"Royalty",
+                        "modifier": 2
+                    }
+                ]
+            },
+            "artist": {
+                "die": 400,
+                "options": [
+                    {
+                        "range":[1,60],
+                        "renown":"Unknown",
+                        "modifier": -3,
+                        "names": [
+                            "Michael Moreau",
+                            "Malik Montgomery",
+                            "Merz Damnmuck",
+                            "Dacthamei",
+                            "Cariloadsem"
+                        ]
+                    },
+                    {
+                        "range":[61,120],
+                        "renown":"Obscure",
+                        "modifier": -2,
+                        "names": [
+                            "Htarc Anvilworker",
+                            "Adam Von Bargen",
+                            "Fanaungi",
+                            "Mel Arden Mercado",
+                            "Rexak Ghostcarver"
+                        ]
+                    },
+                    {
+                        "range":[121,200],
+                        "renown":"Locally known",
+                        "modifier": -1,
+                        "names": [
+                            "The Ambassador Who Hates the Dreamer",
+                            "Greenpine",
+                            "Tob",
+                            "Carnage of the Mysterious Vortex",
+                            "Grosscraft",
+                            "Shroud",
+                            "Zoron"
+                        ]
+                    },
+                    {
+                        "range":[201,280],
+                        "renown":"Regionally known",
+                        "names": [
+                            "Eleanor Manuela Francis",
+                            "Ernie Hays",
+                            "Benedict Cobb",
+                            "Hazel Hudson",
+                            "Zoron The Unholy Earl That Prefers the Pretender",
+                            "The Moolah Thief",
+                            "Zane Vondrak"
+                        ]
+                    },
+                    {
+                        "range":[281,360],
+                        "renown":"Nationally known",
+                        "modifier": 1,
+                        "names": [
+                            "Anadalong",
+                            "Condati",
+                            "Bedlam",
+                            "Carolina Eunice Lester",
+                            "Bauaet",
+                            "Iirikos Stoneshoulder",
+                            "Uraerik Thaurongol",
+                            "Tammith Iltazyarra"
+                        ]
+                    },
+                    {
+                        "range":[361,380],
+                        "renown":"Continentally known",
+                        "modifier": 2,
+                        "names": [
+                            "Boronuil Ironfist",
+                            "Sklaen Jhavander"
+                        ]
+                    },
+                    {
+                        "range":[381,396],
+                        "renown":"World renowned",
+                        "modifier": 3,
+                        "names": [
+                            "Xavier Nix Zar’tsokegorh"
+                        ]
+                    },
+                    {
+                        "range":[397,400],
+                        "renown":"Ubiquitous",
+                        "modifier": 4,
+                        "names": [
+                            "Nadnozmaciel"
+                        ]
+                    }
+                ]
+            },
+            "material quality": {
+                "die": 400,
+                "options": [
+                    {
+                        "range":[1,20],
+                        "type":"Awful",
+                        "modifier": -3
+                    },
+                    {
+                        "range":[21,40],
+                        "type":"Poor",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[41,100],
+                        "type":"Below Average",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[101,260],
+                        "type":"Average"
+                    },
+                    {
+                        "range":[261,340],
+                        "type":"Above Average",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[341,360],
+                        "type":"Good",
+                        "modifier": 2
+                    },
+                    {
+                        "range":[361,380],
+                        "type":"Excellent",
+                        "modifier": 3
+                    },
+                    {
+                        "range":[381,394],
+                        "type":"Finest",
+                        "modifier": 4
+                    },
+                    {
+                        "range":[395,400],
+                        "type":"Unique",
+                        "modifier": 5
+                    }
+                ]
+            },
+            "age": {
+                "die": 8000,
+                "options": [
+                    {
+                        "range":[1,400],
+                        "type":"Avant-garde",
+                        "modifier": -3
+                    },
+                    {
+                        "range":[401,800],
+                        "type":"Current",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[801,2000],
+                        "type":"Recent",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[2001,5200],
+                        "type":"Contemporary"
+                    },
+                    {
+                        "range":[5201,6800],
+                        "type":"Modern",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[6801,7200],
+                        "type":"Old",
+                        "modifier": 2
+                    },
+                    {
+                        "range":[7201,7600],
+                        "type":"Antique",
+                        "modifier": 3
+                    },
+                    {
+                        "range":[7601,7880],
+                        "type":"Venerable",
+                        "modifier": 4
+                    },
+                    {
+                        "range":[7881,7980],
+                        "type":"Archaic",
+                        "modifier": 5
+                    },
+                    {
+                        "range":[7981,7998],
+                        "type":"Antediluvian",
+                        "modifier": 6
+                    },
+                    {
+                        "range":[7999,8000],
+                        "type":"Primordial",
+                        "modifier": 7
+                    }
+                ]
+            },
+            "size": {
+                "die": 400,
+                "options": [
+                    {
+                        "range":[1,20],
+                        "type":"Tiny",
+                        "modifier": -3
+                    },
+                    {
+                        "range":[21,40],
+                        "type":"Very Small",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[41,100],
+                        "type":"Small",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[101,260],
+                        "type":"Average"
+                    },
+                    {
+                        "range":[261,340],
+                        "type":"Large",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[341,360],
+                        "type":"Very Large",
+                        "modifier": 2
+                    },
+                    {
+                        "range":[361,380],
+                        "type":"Huge",
+                        "modifier": 3
+                    },
+                    {
+                        "range":[381,394],
+                        "type":"Massive",
+                        "modifier": 4
+                    },
+                    {
+                        "range":[395,400],
+                        "type":"Gargantuan",
+                        "modifier": 5
+                    }
+                ]
+            },
+            "work quality": {
+                "die": 400,
+                "options": [
+                    {
+                        "range":[1,20],
+                        "type":"Awful",
+                        "modifier": -3
+                    },
+                    {
+                        "range":[21,40],
+                        "type":"Poor",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[41,100],
+                        "type":"Below Average",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[101,260],
+                        "type":"Average"
+                    },
+                    {
+                        "range":[261,340],
+                        "type":"Above Average",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[341,360],
+                        "type":"Good",
+                        "modifier": 2
+                    },
+                    {
+                        "range":[361,380],
+                        "type":"Excellent",
+                        "modifier": 3
+                    },
+                    {
+                        "range":[381,394],
+                        "type":"Brilliant",
+                        "modifier": 4
+                    },
+                    {
+                        "range":[395,400],
+                        "type":"Masterpiece",
+                        "modifier": 5
+                    }
+                ]
+            },
+            "condition": {
+                "die": 400,
+                "options": [
+                    {
+                        "range":[1,20],
+                        "type":"Badly Damaged",
+                        "modifier": -3
+                    },
+                    {
+                        "range":[21,40],
+                        "type":"Damaged",
+                        "modifier": -2
+                    },
+                    {
+                        "range":[41,100],
+                        "type":"Worn",
+                        "modifier": -1
+                    },
+                    {
+                        "range":[101,260],
+                        "type":"Average"
+                    },
+                    {
+                        "range":[261,340],
+                        "type":"Good",
+                        "modifier": 1
+                    },
+                    {
+                        "range":[341,360],
+                        "type":"Excellent",
+                        "modifier": 2
+                    },
+                    {
+                        "range":[361,380],
+                        "type":"Near Perfect",
+                        "modifier": 3
+                    },
+                    {
+                        "range":[381,394],
+                        "type":"Perfect",
+                        "modifier": 4
+                    },
+                    {
+                        "range":[395,400],
+                        "type":"Flawless",
+                        "modifier": 5
+                    }
+                ]
+            },
+            "comment": {
+                "Magical art": "Instead of Magical art, jewelry replaces Magical. This is because the DMG considers jewelry to be objects of art and magical treasure is covered elsewhere in the DMG",
+                "DMG definition of Objects of Art": "This category includes jewelry, ornamental drinking vessels, elaborate snuff boxes, fine crystal and glass, statuary, carvings, and all the other small embellishments that make life more pleasant and easy to bear.",
+                "pottery / ceramic": "This is original and comes from https://en.wikipedia.org/wiki/Pottery and child pages"
+            }
+        },
+        "goods": {}
+    },
+    "settings":{
+        "probability that rod staff wand has already been used": 0.5,
+        "max gem jitter": 0.25,
+        "probability of uncut gem": 0.1,
+        "volume of a coin in cubic inches": 0.049425,
+        "loose coin factor": 1.3,
+        "coins in a pound": 50,
+        "metal bar in coins": 1366,
+        "metal bar in pounds": 27.43,
+        "containers": true,
+        "object of art distribution width": 22,
+        "comment": {
+            "volume of a coin in cubic inches": "http://oldguygaming.com/how-big-is-a-coin",
+            "loose coin factor": "http://oldguygaming.com/how-big-is-a-coin",
+            "metal bar in coins": "https://en.wikipedia.org/wiki/Gold_bar",
+            "metal bar in pounds": "http://www.wolframalpha.com/input/?i=400+troy+ounces+in+pounds",
+            "current status": "art objects complete, next up is goods, pg 8"
+        }
+    }
+}
