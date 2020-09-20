@@ -488,7 +488,7 @@ var getTreasure = function (type, amount, data) {
 };
 
 $(document).ready(function() {
-
+    var data;
     var callback = function(stackframes) {
         var stringifiedStack = stackframes.map(function(sf) {
             return sf.toString();
@@ -503,16 +503,23 @@ $(document).ready(function() {
         StackTrace.fromError(error).then(callback).catch(errback);
     };
 
-    $("#getTreasure").click(function () {
-        var treasureType = $("#treasureType").val().toLowerCase();
-        $.ajaxSetup({ cache: false });
-        $.getJSON( "treasure.json", function( data ) {
-            console.log("in getjson and treasuretype is " + treasureType);
+    $.ajaxSetup({ cache: false });
+    $.getJSON( "treasure.json", function( t ) {
+        data = t;
+        $.each(data["treasure types"], function(key, value) {
+            $('#treasureType').append($('<option></option>').val(key).html(key));
+        });
+    });
+
+    $("#treasureType").change(function () {
+        var treasureType = $("#treasureType option:selected").val()
+        if (Object.keys(data["treasure types"]).includes(treasureType)) {
+            console.log("treasuretype is " + treasureType);
             settings = data.settings;
             var treasure = data["treasure types"][treasureType];
             var result = {};
             // console.log("but now data is " + data);
-            $.each(treasure, function(treasureType, treasureAmount) {
+            $.each(treasure, function (treasureType, treasureAmount) {
                 // console.log("data is " + data + " treasureType is " + treasureType + " treasureAmount is " + treasureAmount);
 
                 result[treasureType] = getTreasure(
@@ -523,7 +530,6 @@ $(document).ready(function() {
                 : "individual and small lair";
             result.containers = getContainer(data["descriptions"]["containers"], data["descriptions"]["materials"], 10);
             $("#result").html(JSON.stringify(result, null, "\t"));
-        });
+        }
     });
 });
-
